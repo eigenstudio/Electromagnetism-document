@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "esd-vitepress-template"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Electromagnetism"
+  text: "Theory, Validation & Practice"
+  tagline: Comprehensive documentation & interactive resources
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Theory
+      link: /theory/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Validation
+      link: /validation/
+    - theme: alt
+      text: Practice
+      link: /practice/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Theory
+    details: Electrostatics, magnetostatics, electrodynamics, and Maxwell's equations.
+    link: /theory/
+  - title: Validation
+    details: Empirical verification, computational benchmarks, and simulation setups.
+    link: /validation/
+  - title: Practice
+    details: Hands-on problem sets, laboratory exercises, and engineering applications.
+    link: /practice/
 ---
 

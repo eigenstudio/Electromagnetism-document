@@ -3,5 +3,8 @@
     "docs:dev": "vitepress dev em-docs",
     "docs:build": "vitepress build em-docs",
     "docs:preview": "vitepress preview em-docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
   }
 }
