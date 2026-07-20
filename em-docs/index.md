@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Electromagnetism"
+  name: "esd-vitepress-template"
   text: "Theory, Validation & Practice"
   tagline: Comprehensive documentation & interactive resources
   actions:
