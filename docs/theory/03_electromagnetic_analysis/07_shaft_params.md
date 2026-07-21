@@ -4,7 +4,6 @@ The shaft is the central mechanical component of the rotor assembly that support
 
 The software defines the shaft using a parametric geometry, allowing different shaft configurations to be generated depending on the mechanical requirements of the machine. Depending on the selected shaft type, additional geometric parameters become available for defining the shaft structure.
 
----
 
 ## What are the different shaft configurations?
 
@@ -22,7 +21,6 @@ A hollow shaft contains a central bore that reduces the overall rotor mass and r
 
 A spider shaft consists of a central hub connected to the rotor core through multiple radial spokes. This configuration significantly reduces rotor weight while maintaining structural support. Spider shafts are commonly employed in large electrical machines where reduced inertia and improved ventilation are desirable.
 
----
 ## How is the shaft geometry defined?
 
 The shaft geometry is defined using a set of parameters describing its dimensions and structural features. Depending on the selected shaft configuration, additional parameters become available for hollow or spider shaft designs.

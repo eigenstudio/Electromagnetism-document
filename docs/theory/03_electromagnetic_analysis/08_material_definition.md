@@ -4,7 +4,6 @@ The electromagnetic performance of an electrical machine depends not only on its
 
 Within this software, each machine component is assigned an appropriate material based on its intended function. The material database contains the electromagnetic properties required by the finite element solver, including relative permeability, electrical conductivity, magnetic saturation characteristics, remanent flux density, coercivity, and other material-specific parameters.
 
----
 
 ## What are the important materials used in a BLDC motor?
 
@@ -14,7 +13,6 @@ The stator and rotor cores are manufactured from laminated electrical steel to p
 
 Together, these materials determine the magnetic, electrical, thermal, and mechanical performance of the machine and therefore play a critical role in electromagnetic analysis.
 
----
 
 ## Why are these materials used?
 
@@ -26,7 +24,6 @@ Mechanical components such as shafts and retaining sleeves are selected primaril
 
 Selecting appropriate materials for each component improves efficiency, reduces losses, enhances torque production, and increases the operational reliability of the electrical machine.
 
----
 
 ## Material assignment for machine components
 
@@ -46,7 +43,6 @@ The following table summarizes the materials commonly assigned to each component
 | Slot Insulation | Nomex, Polyester Film, Epoxy Insulation | Electrically isolates the conductors from the stator core. |
 | Air Gap | Air | Provides magnetic coupling between the stator and rotor while allowing mechanical rotation. |
 
----
 
 ## What material properties are important for electromagnetic analysis?
 
@@ -58,7 +54,6 @@ For permanent magnets, additional parameters such as remanent flux density, coer
 
 Electrical conductors are primarily characterized by their electrical conductivity, resistivity, and temperature coefficient, while insulating materials are defined by their dielectric strength and electrical resistivity.
 
----
 
 ## Summary
 

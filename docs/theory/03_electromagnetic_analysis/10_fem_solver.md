@@ -4,7 +4,6 @@ The electromagnetic behaviour of a BLDC motor is governed by Maxwell's equations
 
 The Finite Element Method (FEM) provides a numerical framework for solving these governing equations over the motor geometry. By discretizing the computational domain into a large number of finite elements, the solver accurately predicts magnetic field distribution, flux linkage, electromagnetic torque, Back EMF, and other performance quantities.
 
----
 
 ## Why is transient simulation required?
 
@@ -39,7 +38,6 @@ where
 
 The electrical angle determines the phase relationship between the rotating magnetic field and the stator excitation throughout the transient simulation.
 
----
 
 ## What are the important governing equations?
 
@@ -63,7 +61,6 @@ where
 - $\mathbf{D}$ = Electric flux density (C/m²)
 - $\rho$ = Electric charge density (C/m³)
 
----
 
 ### Gauss's Law for Magnetism
 
@@ -82,7 +79,6 @@ where
 
 This equation permits the introduction of the magnetic vector potential used by the finite element solver.
 
----
 
 ### Faraday's Law
 
@@ -104,7 +100,6 @@ where
 
 As the rotor rotates, the changing magnetic flux induces voltage within the stator windings according to this law.
 
----
 
 ### Ampère's Law
 
@@ -142,7 +137,6 @@ $$
 
 This equation represents the primary governing equation for magnetostatic and transient magnetic field analysis.
 
----
 
 ### Constitutive relations
 
@@ -174,7 +168,6 @@ where
 
 These equations define how different materials respond to applied electric and magnetic fields.
 
----
 
 ### Permanent magnet formulation
 
@@ -205,7 +198,6 @@ where
 
 This formulation enables the permanent magnets to be incorporated directly into the finite element model.
 
----
 
 ### Magnetic vector potential formulation
 
@@ -237,7 +229,6 @@ $$
 
 This reduces the vector problem to solving a single scalar unknown throughout the computational domain.
 
----
 
 ### Governing partial differential equation
 
@@ -283,7 +274,6 @@ $$
 
 This is the governing partial differential equation solved by the finite element solver.
 
----
 
 ## How is the geometry meshed?
 
@@ -309,7 +299,6 @@ The complete computational mesh consists of thousands of interconnected elements
 
 Mesh convergence studies are commonly performed to ensure that the computed solution is independent of the selected mesh resolution.
 
----
 
 ## How are the electromagnetic quantities calculated?
 
@@ -327,7 +316,6 @@ $$
 
 Magnetic flux density represents the strength of the magnetic field throughout the motor and is one of the primary quantities computed during finite element analysis.
 
----
 
 ### Magnetic field intensity
 
@@ -341,7 +329,6 @@ $$
 
 Magnetic field intensity represents the magnetizing force required to establish the magnetic flux within the material.
 
----
 
 ### Flux linkage
 
@@ -357,7 +344,6 @@ $$
 
 Flux linkage measures the total magnetic flux linked by a stator winding and forms the basis for Back EMF calculation.
 
----
 
 ### Back electromotive force (Back EMF)
 
@@ -372,7 +358,6 @@ $$
 
 Back EMF represents the voltage induced in the stator windings due to the changing magnetic flux produced by rotor motion.
 
----
 
 ### Electromagnetic torque
 
@@ -397,7 +382,6 @@ where
 
 Torque represents the mechanical output produced by the interaction between the stator magnetic field and the permanent magnets.
 
----
 
 ### Copper loss
 
@@ -411,7 +395,6 @@ $$
 
 Copper loss represents the resistive heating produced within the stator windings.
 
----
 
 ### Efficiency
 
@@ -427,7 +410,6 @@ $$
 
 Efficiency measures how effectively the motor converts electrical input power into useful mechanical output power.
 
----
 
 ## Summary
 

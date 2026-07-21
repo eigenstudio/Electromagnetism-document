@@ -4,7 +4,6 @@ Electromagnetic (EM) analysis is the study of electric and magnetic fields and t
 
 By solving the governing equations of electromagnetics, engineers can accurately evaluate quantities such as magnetic flux, electric fields, induced voltages, electromagnetic forces, and energy conversion without relying solely on physical experimentation. As a result, electromagnetic analysis has become an indispensable tool in the design and development of modern electrical and electronic systems.
 
----
 
 ## What is electromagnetic analysis?
 
@@ -16,7 +15,6 @@ The computed field quantities are used to evaluate important performance paramet
 
 **Figure 1:** Visual representation of electromagnetic analysis
 
----
 
 ## Why is electromagnetic analysis required?
 
@@ -24,7 +22,6 @@ Modern electromagnetic devices often possess complex geometries, nonlinear magne
 
 Electromagnetic analysis enables engineers to predict device performance with high accuracy while significantly reducing the number of physical prototypes required during product development. It also helps identify design limitations such as magnetic saturation, excessive core and copper losses, torque ripple, leakage flux, overheating, and electromagnetic interference at an early stage. This leads to shorter design cycles, reduced development costs, and improved overall system performance.
 
----
 
 ## Where is electromagnetic analysis used?
 
@@ -32,7 +29,6 @@ Electromagnetic analysis is widely used across numerous engineering disciplines 
 
 In electrical machine design, electromagnetic analysis is essential for evaluating flux distribution, back electromotive force (EMF), torque production, efficiency, thermal performance, and overall machine characteristics.
 
----
 
 ## How is electromagnetic analysis performed?
 
@@ -47,13 +43,11 @@ Electromagnetic analysis consists of a sequence of extensive steps required for 
 
 **Figure 2:** Electromagnetic analysis workflow
 
----
 
 ## How will this manual help you understand?
 
 This manual focuses on the finite element analysis of permanent magnet BLDC machines. Throughout the following chapters, the theoretical concepts of electromagnetics are progressively developed, beginning with the fundamental principles of electric and magnetic fields, followed by Maxwell's equations, constitutive relations, and finite element formulations. These concepts are then applied to model, simulate, and analyse electromagnetic quantities such as magnetic flux distribution, back EMF, electromagnetic torque, and machine performance.
 
----
 
 ## Summary
 

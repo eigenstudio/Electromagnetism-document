@@ -2,7 +2,6 @@
 
 Electromagnetics is the study of electric and magnetic fields and their interactions with charges, currents, and materials. It provides the theoretical foundation for analysing electrical machines, transformers, actuators, and other electromagnetic devices. The concepts introduced in this chapter form the basis for the finite element formulations used throughout this manual.
 
----
 
 ## What is electrostatics and why is it important?
 
@@ -12,7 +11,6 @@ Electrostatics is the branch of electromagnetics that studies stationary electri
 
 Although BLDC motor analysis primarily involves magnetic fields, many of the governing mathematical concepts originate from electrostatics. Potential fields, conservation laws, and partial differential equations introduced here later appear in Maxwell's equations and finite element analysis.
 
----
 
 ## What is magnetostatics and why is it important?
 
@@ -22,7 +20,6 @@ Magnetostatics is the study of magnetic fields produced by steady electric curre
 
 Most electric machine simulations are based on magnetostatic or quasi-static assumptions. Magnetostatics provides the physical principles required to analyse magnetic flux distribution, magnetic saturation, electromagnetic force, torque production, and permanent magnet behaviour.
 
----
 
 ## What are the fundamental electromagnetic quantities?
 
@@ -40,7 +37,6 @@ Electromagnetic analysis is described using a set of physical quantities that ch
 | Magnetomotive Force | $\mathcal{F}$ | At | Magnetic potential produced by current-carrying windings. |
 | Magnetic Reluctance | $\mathcal{R}$ | At/Wb | Opposition to magnetic flux in a magnetic path. |
 
----
 
 ## How are these concepts used in electric machine analysis?
 
@@ -48,7 +44,6 @@ In permanent magnet BLDC machines, electric currents generate magnetic fields th
 ![[05_usage.png]]
 **Figure 3:** Usage of the concepts of electrostatics and magnetostatics in BLDC motor simulations
 
----
 
 ## Summary
 

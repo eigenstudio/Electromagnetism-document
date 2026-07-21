@@ -4,7 +4,6 @@ Electric motors convert electrical energy into mechanical motion through the int
 
 Electromagnetic analysis provides engineers with the ability to understand, predict, and optimise motor performance before a physical prototype is manufactured. It has therefore become an essential component of modern electric machine design and development.
 
----
 
 ## Why is electromagnetic analysis important for electric motors?
 
@@ -14,7 +13,6 @@ Accurate electromagnetic analysis enables engineers to evaluate machine behaviou
 
 As electric machines become increasingly compact and efficient, conventional analytical methods are no longer sufficient to capture the complex interactions between materials, windings, permanent magnets, and rotor motion. Numerical electromagnetic analysis provides the accuracy required for modern machine design.
 
----
 
 ## What motor characteristics can electromagnetic analysis predict?
 
@@ -27,7 +25,6 @@ It also enables the estimation of copper losses, core losses, magnetic saturatio
 ![[06_results.png]]
 **Figure 1:** Overview of electromagnetic analysis  
 
----
 
 ## Why are analytical calculations alone not sufficient?
 
@@ -37,7 +34,6 @@ Real electric motors contain complex slot geometries, distributed windings, air 
 
 Consequently, numerical methods are required to model the actual electromagnetic behaviour of practical electrical machines with a high degree of accuracy.
 
----
 
 ## Why is finite element analysis used for motor simulation?
 
@@ -45,7 +41,6 @@ The Finite Element Method (FEM) is the most widely used numerical technique for 
 
 This approach allows highly complex geometries, nonlinear magnetic materials, multiple material regions, permanent magnets, and intricate winding configurations to be represented accurately within a single computational model.
 
----
 
 ## How does electromagnetic analysis improve motor design?
 
@@ -55,7 +50,6 @@ This iterative design process enables optimisation of torque production, efficie
 
 The ability to identify issues such as excessive magnetic saturation, high torque ripple, leakage flux, and increased losses early in the design cycle significantly shortens product development time.
 
----
 
 ## How is electromagnetic analysis applied in this software?
 
@@ -65,7 +59,6 @@ The simulation framework developed throughout this manual predicts magnetic flux
 
 The theoretical concepts introduced in the following chapters provide the mathematical foundation required to develop this simulation methodology.
 
----
 
 ## Summary
 
