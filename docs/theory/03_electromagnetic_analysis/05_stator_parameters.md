@@ -30,7 +30,7 @@ The following parameters are used to construct the stator geometry.
 
 ## Stator geometry parameters
 
-![](10_stator_params.png)
+![](attachments/10_stator_params.png)
 **Figure 1:** Stator Parameters
 
 ![](attachments/21_microscopic.png)
@@ -123,7 +123,7 @@ The software allows the winding configuration to be defined parametrically, enab
 
 ## Stator winding parameters
 
-![](11_windings.png)
+![](attachments/11_windings.png)
 **Figure 3**: Stator winding parameters
 ### Windings per phase
 

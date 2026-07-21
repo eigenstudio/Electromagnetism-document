@@ -11,7 +11,7 @@ Electromagnetic analysis involves the mathematical and numerical solution of Max
 
 The computed field quantities are used to evaluate important performance parameters such as magnetic flux density, electric field intensity, current density, force, torque, induced voltage, power losses, and efficiency. These results provide valuable insight into the physical behaviour of electromagnetic systems before they are manufactured.
 
-![](01_em_analysis.png)
+![](attachments/01_em_analysis.png)
 
 **Figure 1:** Visual representation of electromagnetic analysis
 
@@ -39,7 +39,7 @@ Electromagnetic analysis consists of a sequence of extensive steps required for 
 - The resulting electromagnetic field solution is post-processed to compute engineering quantities including magnetic flux density, current density, flux linkage, electromagnetic force, torque, induced voltage, and various loss components. 
 - This simulation-driven workflow enables engineers to evaluate and optimise designs before prototype fabrication.
 
-![](02_em_analysis_workflow.png)
+![](attachments/02_em_analysis_workflow.png)
 
 **Figure 2:** Electromagnetic analysis workflow
 
@@ -47,7 +47,6 @@ Electromagnetic analysis consists of a sequence of extensive steps required for 
 ## How will this manual help you understand?
 
 This manual focuses on the finite element analysis of permanent magnet BLDC machines. Throughout the following chapters, the theoretical concepts of electromagnetics are progressively developed, beginning with the fundamental principles of electric and magnetic fields, followed by Maxwell's equations, constitutive relations, and finite element formulations. These concepts are then applied to model, simulate, and analyse electromagnetic quantities such as magnetic flux distribution, back EMF, electromagnetic torque, and machine performance.
-
 
 ## Summary
 

@@ -15,7 +15,7 @@ The machine consists of two primary components:
 
 Electronic commutation ensures that the stator magnetic field continuously pulls the rotor, producing continuous rotation. 
 
-![](07_inrunner.png)
+![](attachments/07_inrunner.png)
 
 **Figure 1:** Construction of a permanent magnet BLDC machine showing stator, rotor, air-gap, and permanent magnets.
 
@@ -39,7 +39,7 @@ These characteristics have made BLDC machines one of the preferred choices for m
 
 The electromagnetic performance of a BLDC machine depends primarily on its mechanical construction and magnetic circuit.
 
-![](08_cross_section.png)
+![](attachments/08_cross_section.png)
 **Figure 2:** Cross-sectional view showing stator slots, windings, rotor magnets, and air-gap.
 
 The principal components include:

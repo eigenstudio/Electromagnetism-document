@@ -9,7 +9,7 @@ Within this software, the rotor is defined using a parametric geometry. Each par
 
 The rotor consists of several components that together generate the magnetic field required for motor operation.
 
-![](12_rotor_params.png)
+![](attachments/12_rotor_params.png)
 **Figure 1:** Rotor geometry cross-sectional view
 ### Rotor yoke
 
@@ -28,7 +28,7 @@ The shaft is the central mechanical component that supports the rotor assembly a
 
 The software constructs the rotor using a set of geometric parameters describing the permanent magnets, rotor core, shaft, and air gap. These parameters determine both the electromagnetic behaviour and the mechanical characteristics of the machine.
 
-![](13_rotor_params.png)
+![](attachments/13_rotor_params.png)
 **Figure 2:** Close-up view of the rotor geometry parameters
 
 The following parameters are used to define the rotor geometry.

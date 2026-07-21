@@ -22,7 +22,7 @@ From these field solutions, engineers can predict important performance quantiti
 
 It also enables the estimation of copper losses, core losses, magnetic saturation, leakage flux, efficiency, and other parameters that directly influence the overall performance and reliability of the motor.
 
-![](06_results.png)
+![](attachments/06_results.png)
 **Figure 1:** Overview of electromagnetic analysis  
 
 
