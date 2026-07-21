@@ -1,0 +1,243 @@
+{
+  "main": {
+    "id": "1db8301717f76179",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcb7c2275ff053ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f20e5934ee1cdc23",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f74d9c99d38045c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "066e9cf16240c6a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78ad96f94a018427",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0f9d6b7395545d9d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d766e4cef326fcf5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.5
+  },
+  "right": {
+    "id": "3d423b82c982d045",
+    "type": "split",
+    "children": [
+      {
+        "id": "fda26b994ecf35d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0ebc70535f1e41d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/developement/01_getting_started/06_reset_password.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 06_reset_password"
+            }
+          },
+          {
+            "id": "7ac653796e338918",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/developement/01_getting_started/06_reset_password.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 06_reset_password"
+            }
+          },
+          {
+            "id": "4bb1b754ef1ec117",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c641f595bae40e2a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f5b32d14caf31453",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/developement/01_getting_started/06_reset_password.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 06_reset_password"
+            }
+          },
+          {
+            "id": "ea11a03ba515df1b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "f20e5934ee1cdc23",
+  "lastOpenFiles": [
+    "docs/validation/1_static_analysis/attachments/check5.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_Az_contour.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_comparison.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_B_contour.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_Az_contour.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_geometry.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_comparison.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_B_contour.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/geometry_straight.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/geometry_circular.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/error_circular.png",
+    "docs/validation/3_electromagnetic_analysis/index.md",
+    "docs/validation/3_electromagnetic_analysis/2_straight_current_conductor.md",
+    "docs/validation/3_electromagnetic_analysis/attachments",
+    "docs/validation/3_electromagnetic_analysis/3_parallel_current_conductor.md",
+    "docs/validation/3_electromagnetic_analysis/1_circular_current_conductor.md",
+    "docs/validation/3_electromagnetic_analysis",
+    "docs/theory/3_electromagnetic_analysis/index.md",
+    "docs/theory/3_electromagnetic_analysis",
+    "docs/practice/3_electromagnetic_analysis/index.md",
+    "docs/practice/3_electromagnetic_analysis",
+    "docs/interface/4_electromagnetic_analysis/index.md",
+    "docs/interface/4_electromagnetic_analysis",
+    "docs/interface/3_dynamic_analysis/index.md",
+    "docs/interface/3_dynamic_analysis",
+    "docs/interface/2_static_analysis/index.md",
+    "docs/interface/2_static_analysis",
+    "docs/interface/4_post_processing_workflow/index.md",
+    "docs/interface/4_post_processing_workflow/22-reaction-forces.md",
+    "docs/interface/4_post_processing_workflow/21-strain-results.md",
+    "docs/interface/4_post_processing_workflow/20-stress-results.md",
+    "docs/interface/4_post_processing_workflow/19-displacement-results.md",
+    "docs/interface/4_post_processing_workflow/18-data-extraction.md",
+    "docs/interface/4_post_processing_workflow/17-result-interpretation.md",
+    "docs/interface/4_post_processing_workflow/16-result-visualization.md",
+    "docs/interface/4_post_processing_workflow",
+    "docs/interface/3_solver_settings/15-dynamic-simulations.md",
+    "docs/interface/3_solver_settings/12-solver-parameters.md",
+    "docs/interface/3_solver_settings/index.md",
+    "docs/interface/3_solver_settings/14-static-simulations.md",
+    "docs/interface/3_solver_settings/11-analysis-type-configuration.md",
+    "docs/interface/3_solver_settings/13-solution-controls.md",
+    "docs/interface/3_solver_settings",
+    "docs/interface/2_pre_processing_workflow/index.md",
+    "docs/interface/2_pre_processing_workflow/10-boundary-conditions.md",
+    "docs/interface/2_pre_processing_workflow"
+  ]
+}
