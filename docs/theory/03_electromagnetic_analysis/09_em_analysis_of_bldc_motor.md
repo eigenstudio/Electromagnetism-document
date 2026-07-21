@@ -64,7 +64,6 @@ Sweep settings determine how the simulation progresses through different operati
 
 Instead of solving the electromagnetic problem at a single operating point, the solver evaluates multiple rotor positions, time instants, or operating speeds. This enables the complete electromagnetic behaviour of the motor to be analysed.
 
----
 ## What output parameters are generated?
 
 Once the electromagnetic field solution has been obtained, the software computes several engineering quantities that describe the performance of the motor.
@@ -85,7 +84,6 @@ The following table summarizes the principal simulation outputs.
 | Current-Speed Curve    | A vs rpm       | Indicates electrical loading requirements.        |
 |                        |                |                                                   |
 
----
 # Time sweep analysis
 
 Time sweep analysis solves the electromagnetic field equations at successive time steps while the rotor rotates continuously.
@@ -126,7 +124,6 @@ Efficiency represents the ratio of useful mechanical output power to the supplie
 
 It provides an overall measure of the quality of the motor design. Higher efficiency indicates lower copper losses, lower core losses, and improved energy conversion. Modern permanent magnet motors typically achieve efficiencies greater than 90% under rated operating conditions.
 
----
 # Speed sweep analysis
 
 Unlike time sweep analysis, which studies transient behaviour over time, speed sweep analysis evaluates the motor over a range of operating speeds while maintaining specified electrical conditions.

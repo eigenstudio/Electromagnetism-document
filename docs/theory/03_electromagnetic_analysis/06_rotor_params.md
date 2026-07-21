@@ -4,7 +4,6 @@ The rotor is the rotating component of a BLDC motor that carries the permanent m
 
 Within this software, the rotor is defined using a parametric geometry. Each parameter controls a specific geometric feature, enabling different rotor configurations to be generated and optimized while maintaining the desired electromagnetic and mechanical characteristics.
 
----
 
 ## What are the main parts of the rotor?
 
@@ -24,7 +23,6 @@ Permanent magnets are mounted on the outer surface of the rotor in a surface-mou
 
 The shaft is the central mechanical component that supports the rotor assembly and transmits the generated mechanical torque to the external load. Its dimensions primarily influence the mechanical strength and manufacturability of the rotor.
 
----
 
 ## How is the rotor geometry defined?
 
@@ -70,7 +68,6 @@ Shaft diameter defines the outside diameter of the rotor shaft supporting the ro
 
 Shaft hole diameter specifies the diameter of the central bore for hollow shaft configurations. A value of zero represents a solid shaft, whereas larger values reduce rotor mass and rotational inertia while accommodating applications requiring hollow shafts.
 
----
 ## Summary
 
 The rotor geometry governs both the electromagnetic and mechanical performance of a BLDC motor. Parameters such as magnet thickness, magnet arc, air-gap length, rotor diameter, and shaft dimensions directly influence magnetic flux distribution, Back EMF, torque production, cogging torque, and mechanical strength. By defining these parameters parametrically, the software enables rapid development and optimisation of rotor designs while maintaining accurate electromagnetic simulations.

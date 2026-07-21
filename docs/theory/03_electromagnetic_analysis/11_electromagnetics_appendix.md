@@ -2,7 +2,6 @@
 
 The electromagnetic concepts presented in this appendix provide the mathematical foundation for the governing equations used throughout this manual. These equations describe the behaviour of electric and magnetic fields, material properties, electromagnetic induction, and energy conversion in electrical machines.
 
----
 
 ## Fundamental Electromagnetic Quantities
 
@@ -18,7 +17,6 @@ $$
 
 **SI Unit:** V/m (or N/C)
 
----
 
 ### Electric Flux Density
 
@@ -32,7 +30,6 @@ $$
 
 **SI Unit:** C/m²
 
----
 
 ### Magnetic Field Intensity
 
@@ -46,7 +43,6 @@ $$
 
 **SI Unit:** A/m
 
----
 
 ### Magnetic Flux Density
 
@@ -60,7 +56,6 @@ $$
 
 **SI Unit:** Tesla (T)
 
----
 
 ### Magnetic Flux
 
@@ -75,7 +70,6 @@ $$
 
 **SI Unit:** Weber (Wb)
 
----
 
 ### Current Density
 
@@ -89,7 +83,6 @@ $$
 
 **SI Unit:** A/m²
 
----
 
 ## Maxwell's Equations
 
@@ -103,7 +96,6 @@ $$
 \rho
 $$
 
----
 
 ### Gauss's Law for Magnetism
 
@@ -115,7 +107,6 @@ $$
 0
 $$
 
----
 
 ### Faraday's Law
 
@@ -128,7 +119,6 @@ $$
 \frac{\partial\mathbf{B}}{\partial t}
 $$
 
----
 
 ### Ampère-Maxwell Law
 
@@ -150,7 +140,6 @@ $$
 \mathbf{J}
 $$
 
----
 
 ## Constitutive Relations
 
@@ -172,7 +161,6 @@ $$
 \mu(\mathbf{H})\mathbf{H}
 $$
 
----
 
 ### Permanent Magnet Relation
 
@@ -194,7 +182,6 @@ $$
 \mu(\mathbf{H}+\mathbf{M})
 $$
 
----
 
 ### Electrical Conductivity
 
@@ -206,7 +193,6 @@ $$
 \sigma\mathbf{E}
 $$
 
----
 
 ## Magnetic Vector Potential
 
@@ -234,7 +220,6 @@ $$
 A_z\hat{z}
 $$
 
----
 
 ## Governing Electromagnetic Equation
 
@@ -276,7 +261,6 @@ J_z
 \right)
 $$
 
----
 
 ## Electromagnetic Force and Torque
 
@@ -306,7 +290,6 @@ I
 \mathbf{B}
 $$
 
----
 
 ### Maxwell Stress Tensor Torque
 
@@ -321,7 +304,6 @@ B_rB_\theta
 \,d\theta
 $$
 
----
 
 ## Electromagnetic Induction
 
@@ -340,7 +322,6 @@ N
 d\mathbf{S}
 $$
 
----
 
 ### Back Electromotive Force
 
@@ -353,7 +334,6 @@ e
 \frac{d\lambda}{dt}
 $$
 
----
 
 ## Power and Losses
 
@@ -365,7 +345,6 @@ P_{cu}
 I^2R
 $$
 
----
 
 ### Joule Heating
 
@@ -375,7 +354,6 @@ Q
 \mathbf{J}\cdot\mathbf{E}
 $$
 
----
 
 ### Electromagnetic Power
 
@@ -395,7 +373,6 @@ P_{out}
 T\omega
 $$
 
----
 
 ### Motor Efficiency
 
@@ -407,7 +384,6 @@ $$
 \times100\%
 $$
 
----
 
 ## Common Electromagnetic Constants
 
@@ -418,7 +394,6 @@ $$
 | Speed of Light | $c$ | $2.998\times10^8$ m/s |
 | Elementary Charge | $e$ | $1.602\times10^{-19}$ C |
 
----
 
 ## Common Electromagnetic Units
 
@@ -437,6 +412,5 @@ $$
 | Power | $P$ | W |
 | Efficiency | $\eta$ | % |
 
----
 
 These equations constitute the fundamental mathematical framework for electromagnetic field analysis. They are referenced throughout the theoretical development of Maxwell's equations, magnetic vector potential formulations, finite element analysis, and the computation of engineering quantities such as magnetic flux density, flux linkage, Back EMF, torque, and efficiency.
