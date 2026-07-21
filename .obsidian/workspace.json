@@ -11,10 +11,15 @@
             "id": "f20e5934ee1cdc23",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/theory/03_electromagnetic_analysis/12_mathematical_appendix.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "12_mathematical_appendix"
             }
           }
         ]
@@ -167,8 +172,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           }
         ]
@@ -193,6 +198,20 @@
   },
   "active": "f20e5934ee1cdc23",
   "lastOpenFiles": [
+    "docs/theory/03_electromagnetic_analysis/10_fem_solver.md",
+    "docs/theory/03_electromagnetic_analysis/11_electromagnetics_appendix.md",
+    "docs/theory/03_electromagnetic_analysis/09_em_analysis_of_bldc_motor.md",
+    "docs/theory/03_electromagnetic_analysis/08_material_definition.md",
+    "docs/theory/03_electromagnetic_analysis/07_shaft_params.md",
+    "docs/theory/03_electromagnetic_analysis/06_rotor_params.md",
+    "docs/theory/03_electromagnetic_analysis/05_stator_parameters.md",
+    "docs/theory/03_electromagnetic_analysis/attachments/21_microscopic.png",
+    "docs/theory/03_electromagnetic_analysis/04_permanent_magnet_bldc_machine_theory.md",
+    "docs/theory/03_electromagnetic_analysis/03_why_motors_need_em_analysis.md",
+    "docs/theory/03_electromagnetic_analysis/02_fundamentals_of_electromagnetics.md",
+    "docs/theory/03_electromagnetic_analysis/01_introduction_to_electromagnetic_analysis.md",
+    "docs/theory/03_electromagnetic_analysis/attachments/Pasted image 20260721184100.png",
+    "docs/theory/03_electromagnetic_analysis/attachments/01_em_analysis.png",
     "docs/validation/1_static_analysis/attachments/check5.png",
     "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_Az_contour.png",
     "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_comparison.png",
@@ -200,10 +219,6 @@
     "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_Az_contour.png",
     "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_geometry.png",
     "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_comparison.png",
-    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_B_contour.png",
-    "docs/validation/3_electromagnetic_analysis/attachments/geometry_straight.png",
-    "docs/validation/3_electromagnetic_analysis/attachments/geometry_circular.png",
-    "docs/validation/3_electromagnetic_analysis/attachments/error_circular.png",
     "docs/validation/3_electromagnetic_analysis/index.md",
     "docs/validation/3_electromagnetic_analysis/2_straight_current_conductor.md",
     "docs/validation/3_electromagnetic_analysis/attachments",
@@ -226,18 +241,8 @@
     "docs/interface/4_post_processing_workflow/20-stress-results.md",
     "docs/interface/4_post_processing_workflow/19-displacement-results.md",
     "docs/interface/4_post_processing_workflow/18-data-extraction.md",
-    "docs/interface/4_post_processing_workflow/17-result-interpretation.md",
-    "docs/interface/4_post_processing_workflow/16-result-visualization.md",
     "docs/interface/4_post_processing_workflow",
-    "docs/interface/3_solver_settings/15-dynamic-simulations.md",
-    "docs/interface/3_solver_settings/12-solver-parameters.md",
-    "docs/interface/3_solver_settings/index.md",
-    "docs/interface/3_solver_settings/14-static-simulations.md",
-    "docs/interface/3_solver_settings/11-analysis-type-configuration.md",
-    "docs/interface/3_solver_settings/13-solution-controls.md",
     "docs/interface/3_solver_settings",
-    "docs/interface/2_pre_processing_workflow/index.md",
-    "docs/interface/2_pre_processing_workflow/10-boundary-conditions.md",
     "docs/interface/2_pre_processing_workflow"
   ]
 }
