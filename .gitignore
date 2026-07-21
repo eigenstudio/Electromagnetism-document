@@ -6,8 +6,8 @@ yarn-error.log*
 pnpm-debug.log*
 
 # VitePress output and cache
-em-docs/.vitepress/dist
-em-docs/.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/cache
 
 # Build outputs
 dist/
