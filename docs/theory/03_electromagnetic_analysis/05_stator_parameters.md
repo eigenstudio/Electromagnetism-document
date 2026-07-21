@@ -30,15 +30,17 @@ The following parameters are used to construct the stator geometry.
 
 ## Stator geometry parameters
 
-![[10_stator_params.png]]
+![](10_stator_params.png)
 **Figure 1:** Stator Parameters
-### Slot width
 
+![](attachments/21_microscopic.png)
+**Figure 2:** Slot parameters close-up view
+
+### Slot width
 The slot width represents the circumferential width of the slot measured across its main body. It determines the space available for accommodating conductors and insulation in slot geometries having a constant slot width.
 
 
 ### Slot width (bottom)
-
 **Symbol:** bs1
 
 The bottom slot width is measured at the base of the slot where it joins the stator yoke. It is primarily used in tapered slot geometries and controls the convergence of the slot walls towards the bottom.
@@ -121,8 +123,8 @@ The software allows the winding configuration to be defined parametrically, enab
 
 ## Stator winding parameters
 
-![[11_windings.png]]
-**Figure 2**: Stator winding parameters
+![](11_windings.png)
+**Figure 3**: Stator winding parameters
 ### Windings per phase
 
 Specifies the total number of stator windings allocated to each electrical phase. Together with the number of slots and poles, this parameter determines the winding distribution and phase sequence of the machine.

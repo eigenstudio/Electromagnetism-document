@@ -29,7 +29,7 @@ Selecting appropriate materials for each component improves efficiency, reduces 
 
 The following table summarizes the materials commonly assigned to each component of a surface-mounted permanent magnet BLDC motor.
 
-![[15_material.png]]
+![](15_material.png)
 **Figure 1:** Material assignment in BLDC motors.
 
 | Machine Component | Typical Material | Primary Purpose |

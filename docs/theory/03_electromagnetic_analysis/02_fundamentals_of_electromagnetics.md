@@ -6,7 +6,8 @@ Electromagnetics is the study of electric and magnetic fields and their interact
 ## What is electrostatics and why is it important?
 
 Electrostatics is the branch of electromagnetics that studies stationary electric charges and the electric fields they produce. It introduces the concepts of electric charge, electric field, electric potential, and electric flux, which form the mathematical foundation of classical electromagnetic theory.
-![[03_electrostatics.png]]
+
+![](03_electrostatics.png)
 **Figure 1:** Concept of Electric Charge in Electrostatics
 
 Although BLDC motor analysis primarily involves magnetic fields, many of the governing mathematical concepts originate from electrostatics. Potential fields, conservation laws, and partial differential equations introduced here later appear in Maxwell's equations and finite element analysis.
@@ -15,7 +16,8 @@ Although BLDC motor analysis primarily involves magnetic fields, many of the gov
 ## What is magnetostatics and why is it important?
 
 Magnetostatics is the study of magnetic fields produced by steady electric currents and permanent magnets. It explains how magnetic fields are generated, distributed, and interact with magnetic materials to produce force and torque in electromagnetic devices.
-![[04_magnetostatics.jpg]]
+
+![](04_magnetostatics.jpg)
 **Figure 2:** Magnetic field lines 
 
 Most electric machine simulations are based on magnetostatic or quasi-static assumptions. Magnetostatics provides the physical principles required to analyse magnetic flux distribution, magnetic saturation, electromagnetic force, torque production, and permanent magnet behaviour.
@@ -41,7 +43,8 @@ Electromagnetic analysis is described using a set of physical quantities that ch
 ## How are these concepts used in electric machine analysis?
 
 In permanent magnet BLDC machines, electric currents generate magnetic fields that interact with permanent magnets to produce torque. Finite element analysis solves for quantities such as magnetic flux density, flux linkage, back EMF, force, and torque using the electromagnetic principles introduced in this chapter.
-![[05_usage.png]]
+
+![](05_usage.png)
 **Figure 3:** Usage of the concepts of electrostatics and magnetostatics in BLDC motor simulations
 
 
