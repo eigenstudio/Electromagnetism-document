@@ -12,7 +12,7 @@ Unlike static electromagnetic problems, the magnetic field inside a BLDC motor c
 
 Transient simulation solves the governing equations at successive time steps while continuously updating the rotor position and electrical excitation. This enables the accurate prediction of dynamic quantities such as torque ripple, Back EMF, flux linkage, phase currents, and electromagnetic losses.
 
-![[16_material.png]]
+![](16_material.png)
 **Figure 1:** Transient simulation summary
 
 The mechanical rotor position is given by
@@ -49,7 +49,7 @@ For electrical machine analysis, the operating frequencies are sufficiently low 
 
 ### Gauss's Law
 
-![[17_gauss.png]]
+![](17_gauss.png)
 **Figure 2:** Gauss's Law of Electrostatics
 
 Gauss's Law relates electric charge to the electric field.
@@ -67,7 +67,7 @@ where
 
 ### Gauss's Law for Magnetism
 
-![[18_gauss_magnet.png]]
+![](18_gauss_magnet.png)
 **Figure 2:** Gauss Law of magnetism
 
 Magnetic monopoles do not exist; therefore, magnetic field lines always form closed loops.
@@ -86,7 +86,7 @@ This equation permits the introduction of the magnetic vector potential used by 
 
 ### Faraday's Law
 
-![[19_faraday.png]]
+![](19_faraday.png)
 **Figure 3:** Faraday's Law of Electromagnetism
 
 Faraday's Law describes electromagnetic induction and forms the basis for Back EMF generation.
@@ -108,7 +108,7 @@ As the rotor rotates, the changing magnetic flux induces voltage within the stat
 
 ### Ampère's Law
 
-![[20_ampere.png]]
+![](20_ampere.png)
 **Figure 4:** Ampere's Law of Electromagnetism
 
 The complete Ampère-Maxwell equation is

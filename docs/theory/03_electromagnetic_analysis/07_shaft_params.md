@@ -26,7 +26,7 @@ A spider shaft consists of a central hub connected to the rotor core through mul
 ## How is the shaft geometry defined?
 
 The shaft geometry is defined using a set of parameters describing its dimensions and structural features. Depending on the selected shaft configuration, additional parameters become available for hollow or spider shaft designs.
-![[14_shaft.png]]
+![](14_shaft.png)
 **Figure 1:** Shaft Geometry Parameters
 
 The following parameters are used to construct the shaft geometry.
