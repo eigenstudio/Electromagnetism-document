@@ -4,7 +4,6 @@ The winding and excitation chapter defines the electrical layout and slot-level 
 
 This consolidated chapter brings together the principal topics of winding selection and definition, from the initial topology choice to the final conductor and slot-fill description, followed by the sinusoidal excitation strategy, current density calculation, and rotor motion parameters. It is intended to be read as a continuous design sequence in which each decision constrains the next.
 
----
 
 ## Winding Overview
 
@@ -20,7 +19,6 @@ The chapter proceeds through the following stages:
 
 Before a winding design is finalized, it should be checked for phase balance, insulation clearance, copper fill, thermal limits, mechanical retention, and manufacturing feasibility.
 
----
 
 ## Winding Type
 
@@ -61,7 +59,6 @@ $$
 
 where $s_i$ is the slot position, $\phi_i$ the phase assignment, $y_i$ the coil pitch, and $N_c$ the number of coils.
 
----
 
 ## Basic Parameters
 
@@ -95,7 +92,6 @@ Parallel paths are the separate electrical branches into which the winding curre
 
 Winding layers describe the number of conductor levels placed inside the slot. A larger number of layers can improve the use of the available slot area, but it also increases insulation demand and may complicate manufacturing.
 
----
 
 ## Path Type
 
@@ -121,7 +117,6 @@ $$
 
 where $A_{cu}$ is the total copper area and $A_{slot}$ the available slot area.
 
----
 
 ## Coil Style
 
@@ -145,7 +140,6 @@ A hairpin coil is formed from a pre-shaped conductor, typically with a rectangul
 
 Compared with a stranded coil, a hairpin coil usually provides a more compact and robust conductor arrangement.
 
----
 
 ## Divider Type
 
@@ -173,7 +167,6 @@ Divider configurations may also be classified by orientation:
 
 These variants are selected according to slot geometry, insulation requirement, and the required mechanical support characteristics.
 
----
 
 ## Wedge Model
 
@@ -199,7 +192,6 @@ $$
 
 where $V_{cu}$ is the conductor volume and $V_{slot}$ the total slot volume.
 
----
 
 ## Wedge Definition
 
@@ -212,7 +204,6 @@ Before finalizing the wedge, confirm that it:
 - leaves sufficient usable slot area for the selected conductor arrangement; and
 - remains compatible with the intended manufacturing process.
 
----
 
 ## Winding Definition
 
@@ -244,7 +235,6 @@ $$
 
 where $P_{cu}$ is copper loss, $I$ the phase current, and $R$ the winding resistance.
 
----
 
 ## Sinusoidal Three-Phase Excitation
 
@@ -270,7 +260,6 @@ where
 
 The excitation is assigned to the positive and negative coil regions so that current enters one side of the coil and exits the opposite side, reproducing the physical winding arrangement.
 
----
 
 ## Electrical Angle
 
@@ -299,7 +288,6 @@ $
 
 This angle is evaluated at every simulation time step and is used to calculate the instantaneous phase currents.
 
----
 
 ## Relationship Between Mechanical and Electrical Angle
 
@@ -334,7 +322,6 @@ $
 
 Consequently, one complete mechanical revolution corresponds to eleven electrical cycles.
 
----
 
 ## Current Density Calculation
 
@@ -385,7 +372,6 @@ $
 
 This current density is uniformly applied to the corresponding winding regions in the finite element model.
 
----
 
 ## Commutation Offset
 
@@ -414,7 +400,6 @@ The present simulation uses
 
 which is applied throughout the transient simulation.
 
----
 
 ## Electrical Frequency
 
@@ -465,7 +450,6 @@ $
 
 The excitation currents, rotor position and electromagnetic solution are updated once every time step.
 
----
 
 ## Rotor Speed
 
@@ -508,7 +492,6 @@ The continuously updated rotor position is used to
 - update the three-phase excitation,
 - evaluate transient electromagnetic torque, flux linkage and back-EMF.
 
----
 
 ## Summary
 

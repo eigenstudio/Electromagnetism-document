@@ -8,7 +8,6 @@
 ### 1.5 Assumptions and Limitations
 ### 1.6 How Should This Manual Be Used?
 
----
 
 ## 2. Fundamentals of Electrostatics
 ### 2.1 What Is Electrostatics?
@@ -22,7 +21,6 @@
 #### 2.4.5 Electric Flux
 #### 2.4.6 Electric Flux Density
 
----
 
 ## 3. Fundamentals of Magnetostatics
 ### 3.1 What Is Magnetostatics?
@@ -37,7 +35,6 @@
 ### 3.5 Relationship to Subsequent Chapters
 ### 3.6 Summary
 
----
 
 ## 4. Maxwell's Equations and Electromagnetic Field Theory
 ### 4.1 What Are Maxwell's Equations?
@@ -53,7 +50,6 @@
 ### 4.7 Relationship to Subsequent Chapters
 ### 4.8 Summary
 
----
 
 ## 5. Magnetic Vector Potential Formulation
 ### 5.1 What Is the Magnetic Vector Potential?
@@ -66,7 +62,6 @@
 ### 5.8 Relationship to Finite Element Analysis
 ### 5.9 Summary
 
----
 
 ## 6. Electrical Machine Fundamentals
 ### Working Principle of Electrical Machines
@@ -96,7 +91,6 @@
 ### Comparison of BLDC Configurations
 ### Relevance to This Manual
 
----
 
 ## 7. Motor Geometry and Components
 ### 7.1 Stator
@@ -127,7 +121,6 @@
 #### 7.8.11 Magnet Thickness
 #### 7.8.12 Pole Arc Ratio
 
----
 
 ## 8. Windings and Electrical Excitation
 ### Sinusoidal Three-Phase Excitation
@@ -139,7 +132,6 @@
 ### Rotor Speed
 ### Summary
 
----
 
 ## 9. Electromagnetic Materials
 ### 9.1 Air
@@ -155,7 +147,6 @@
 ### 9.11 Remanence
 ### 9.12 Coercivity
 
----
 
 ## 10. Finite Element Formulation for Electromagnetic Analysis
 ### 10.1 Why Finite Element Analysis
@@ -169,7 +160,6 @@
 ### 10.9 Boundary Conditions
 ### 10.10 Linear System Solution
 
----
 
 ## 11. Electromagnetic Governing Equations
 ### 11.1 Magnetostatic Formulation
@@ -183,7 +173,6 @@
 ### 11.9 Flux Linkage
 ### 11.10 Back Electromotive Force
 
----
 
 ## 12. Electromagnetic Simulation Setup
 ### 12.1 Purpose of Electromagnetic Simulation
@@ -201,7 +190,6 @@
 ### 12.7 Boundary Conditions
 ### 12.8 Solver Configuration
 
----
 
 ## 13. Transient Simulation of Rotating Electric Machines
 ### 13.1 Rotor Motion
@@ -220,7 +208,6 @@
 #### 13.9.5 Magnet Thickness Sweep
 #### 13.9.6 Slot Geometry Sweep
 
----
 
 ## 14. Electromagnetic Post-Processing and Performance Evaluation
 ### 14.1 Magnetic Flux Density
@@ -242,7 +229,6 @@
 ### 14.17 Efficiency
 ### 14.18 Electromagnetic Field Visualization
 
----
 
 ## 15. Benchmark Validation and Numerical Verification
 ### 15.1 Validation Methodology
@@ -254,7 +240,6 @@
 ### 15.7 Error Analysis
 ### 15.8 Performance Comparison
 
----
 
 ## Mathematical Appendix
 ### 16.1 Vector Calculus Identities
@@ -265,7 +250,6 @@
 ### 16.6 Electromagnetic Constants
 ### 16.7 Frequently Used Equations
 
----
 
 ## Symbols, Physical Constants, and References
 ### 17.1 Symbols and Notation

@@ -12,7 +12,6 @@ The geometry editor of the simulation software allows these machine features to 
 
 This chapter describes every geometric option available for the **Surface Parallel Inrunner BLDC Motor**, explains the significance of each parameter, and provides the theoretical basis for the available slot configurations.
 
----
 
 ## Geometry Overview
 
@@ -29,7 +28,6 @@ Each group controls a different part of the machine geometry and collectively de
 ![](attachments/1_Inunner.png)
 **Figure 7.1:** Diagram of an inrunner motor seen from top
 
----
 
 ### Slot Types
 
@@ -53,7 +51,6 @@ The following slot geometries are available.
 | 5 | Form Wound |
 | 6 | Tapered Slot |
 
----
 
 ### Rotor Types
 
@@ -80,7 +77,6 @@ The following rotor topologies are available.
 | 15 | Interior U Shape |
 | 16 | Spoke |
 
----
 
 ### Stator Duct Types
 
@@ -96,7 +92,6 @@ The following duct geometries are supported.
 | 4 | Circular Duct |
 | 5 | Rectangular Duct |
 
----
 
 ### Rotor Duct Types
 
@@ -112,7 +107,6 @@ Available rotor duct configurations are listed below.
 | 4 | Arc Ducts |
 | 5 | Rectangular Ducts |
 
----
 
 ### Shaft Types
 
@@ -125,7 +119,6 @@ Two shaft configurations are available.
 | 1 | Solid Shaft |
 | 2 | Spider Shaft |
 
----
 
 ## Geometry Parameters
 
@@ -133,7 +126,6 @@ Each geometry option requires one or more geometric parameters. Some parameters 
 
 The following sections define the parameters used throughout the geometry editor.
 
----
 
 ### Common Stator Parameters
 
@@ -157,7 +149,6 @@ The following sections define the parameters used throughout the geometry editor
 ![](attachments/9_stator_params.png)
 **Figure 7.2:** Parameters used in the software
 
----
 
 ### Common Rotor Parameters
 
@@ -175,7 +166,6 @@ The following parameters define the geometry of the rotor and permanent magnets 
 | Shaft Diameter | — | Outside diameter of the rotor shaft providing mechanical support to the rotating assembly. |
 | Shaft Hole Diameter | — | Diameter of the central bore in a hollow shaft configuration. A value of zero represents a solid shaft. |
 
----
 
 ### Stator Duct Parameters
 
@@ -191,7 +181,6 @@ Stator ducts are incorporated within the stator core to improve heat dissipation
 | Duct Corner Radius | — | Radius of the rounded corners used in rectangular duct geometries to reduce stress concentration and improve manufacturability. |
 | Duct Angle | — | Angular position of the duct measured with respect to the stator reference axis. |
 
----
 
 ### Rotor Duct Parameters
 
@@ -209,7 +198,6 @@ Rotor ducts provide cooling passages through the rotor core, allowing improved a
 | Rotor Duct Corner Radius | — | Radius applied to the corners of rectangular rotor ducts. |
 | Rotor Duct Web Width | — | Thickness of the steel web remaining between adjacent rotor ducts to maintain rotor structural integrity. |
 
----
 
 ### Shaft Parameters
 
@@ -223,7 +211,6 @@ The shaft provides mechanical support for the rotor assembly and transmits the d
 | Shaft Spoke Thickness | — | Tangential thickness of each shaft spoke. Increasing this parameter improves structural rigidity but reduces the available cooling area. |
 | Shaft Spoke Radial Depth | — | Radial length of each shaft spoke measured from the shaft hub to the rotor core. |
 
----
 
 ## Slot Type Descriptions
 
@@ -243,7 +230,6 @@ Regardless of the selected slot geometry, the following parameters are common to
 
 These parameters are common to every slot geometry and are therefore not repeated within the individual slot type descriptions. Only the geometry-specific parameters unique to each slot type are listed in the following sections.
 
----
 
 ### Parallel Tooth
 
@@ -276,7 +262,6 @@ This is one of the most widely used stator slot geometries due to its simple con
 ![](attachments/2_parallel.png)
 **Figure 7.3:** Parallel Tooth Slot Geometry
 
----
 
 ### Parallel Tooth Square Base
 
@@ -308,7 +293,6 @@ This slot geometry is commonly selected when maximizing copper fill factor is mo
 ![](attachments/3_parallel_tooth_sq_base.png)
 **Figure 7.4:** Parallel Tooth Square Base Geometry
 
----
 
 ### Parallel Slot
 
@@ -340,7 +324,6 @@ This configuration provides a uniform slot cross-section, making it suitable for
 ![](attachments/4_parallel_slot.png)
 **Figure 7.5:** Parallel Slot
 
----
 
 ### Slotless
 
@@ -372,7 +355,6 @@ Since no physical slots are present, the available copper area is generally lowe
 ![](attachments/5_slotless.png)
 **Figure 7.6:** Slotless geometry
 
----
 
 ### Form Wound
 
@@ -404,7 +386,6 @@ The slot geometry incorporates dedicated wedge features to securely retain the w
 ![](attachments/6_form_wound.png)
 **Figure 7.7:** Form Wound Slot geometry
 
----
 
 ### Capsule
 
@@ -437,7 +418,6 @@ The smoother geometry also improves insulation placement by eliminating sharp ed
 ![](attachments/7_capsule.png)
 **Figure 7.8:** Capsule Slot geometry
 
----
 
 ### Tapered Slot
 

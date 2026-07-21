@@ -2,7 +2,6 @@
 
 A comprehensive VitePress-powered documentation site covering theoretical foundations, empirical validation, and practical engineering applications of Electromagnetism.
 
----
 
 ## 📁 Folder Structure
 
@@ -33,7 +32,6 @@ Electromagnetism-document/
 └── README.md                       # Project documentation and guide
 ```
 
----
 
 ## 🛠️ Prerequisites
 
@@ -48,7 +46,6 @@ Ensure you have **Node.js** (v18+ recommended) and **npm** installed on your sys
   npm -v
   ```
 
----
 
 ## 🚀 How to Run
 
@@ -82,7 +79,6 @@ Preview the production build locally before deploying:
 npm run docs:preview
 ```
 
----
 
 ## 🧰 Built With
 

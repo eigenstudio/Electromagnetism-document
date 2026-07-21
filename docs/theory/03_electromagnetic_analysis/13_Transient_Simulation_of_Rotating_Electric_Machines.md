@@ -2,55 +2,46 @@
 
 *This chapter is under development.*
 
----
 
 ## 13.1 Rotor Motion
 
 *Content to be added.*
 
----
 
 ## 13.2 Sliding Interface
 
 *Content to be added.*
 
----
 
 ## 13.3 Mechanical and Electrical Angle
 
 *Content to be added.*
 
----
 
 ## 13.4 Rotor Speed
 
 *Content to be added.*
 
----
 
 ## 13.5 Electrical Frequency
 
 *Content to be added.*
 
----
 
 ## 13.6 Time Stepping
 
 *Content to be added.*
 
----
 
 ## 13.7 Commutation Offset
 
 *Content to be added.*
 
----
 
 ## 13.8 Sinusoidal Three-Phase Excitation
 
 *Content to be added.*
 
----
 
 ## 13.9 Parametric Studies
 

@@ -217,7 +217,6 @@ This bar is used to apply and define loads on various parts of the structure.
 
 ![](attachments/20.png)
 
----
 ### C.8 — Solver Settings
 #### C.8.1 — Select Physics
 

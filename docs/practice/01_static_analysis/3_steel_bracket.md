@@ -83,7 +83,6 @@ The bracket consists of three main geometric features: the **horizontal base pla
 4. Repeat for the **vertical plate** face: draw four circles at corner bolt positions and cut through all
 5. Confirm → all bolt holes are created on both plates
   
----
   
 ### A.4 — Define Groups
   
@@ -110,7 +109,6 @@ Navigate to the **Features** panel and select the **Group** tab. Create separate
   
   
   ![](attachments/group.png)
----
   
 ## PART B — Mesh Generation in SALOME (Mesh Module)
   
@@ -153,7 +151,6 @@ The bracket contains stress-critical features (slot edges, fillet, bolt holes) t
 2. Wait for mesh computation to complete ✅
    
     ![](attachments/c.png)
----
   
 ### B.4 — Export Mesh
   
@@ -161,7 +158,6 @@ The bracket contains stress-critical features (slot edges, fillet, bolt holes) t
 2. Save the file as `steel_bracket.med`
   
   ![](attachments/e.png)
----
   
 ## PART C — Solver Setup in eigenspace
   

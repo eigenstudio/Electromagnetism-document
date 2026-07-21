@@ -6,7 +6,6 @@ Finite element analysis (FEA) provides detailed information about the magnetic f
 
 This chapter describes the complete workflow followed to prepare an electromagnetic simulation, beginning with the motor geometry and ending with the numerical solution of the governing equations.
 
----
 
 ## Purpose of Electromagnetic Simulation
 
@@ -27,7 +26,6 @@ Typical objectives of electromagnetic simulation include computation of:
 
 The finite element method allows these quantities to be evaluated while accounting for complex geometries, nonlinear materials, and moving components.
 
----
 
 ## Simulation Workflow
 
@@ -55,7 +53,6 @@ Performance Evaluation
 
 Each stage influences the overall simulation accuracy and computational cost.
 
----
 
 ## Simulation Types
 
@@ -76,7 +73,6 @@ Applications include:
 
 This analysis is computationally inexpensive and is often used during preliminary motor design.
 
----
 
 ### Transient Magnetic Analysis
 
@@ -95,7 +91,6 @@ Typical outputs include:
 
 Transient analysis provides the highest accuracy for rotating electrical machines but requires significantly greater computational resources.
 
----
 
 ### Eddy Current Analysis
 
@@ -110,7 +105,6 @@ Eddy current analysis is primarily used to estimate:
 - Conductive structural losses
 - Heating due to induced currents
 
----
 
 ### Cogging Torque Analysis
 
@@ -124,7 +118,6 @@ The resulting torque waveform is used to determine:
 - Torque ripple
 - Slot-pole interaction effects
 
----
 
 ### Open-Circuit Analysis
 
@@ -139,7 +132,6 @@ Typical quantities obtained include:
 - Back-EMF constant
 - Permanent magnet flux distribution
 
----
 
 ### Load Analysis
 
@@ -156,7 +148,6 @@ Outputs commonly include:
 - Machine efficiency
 - Power losses
 
----
 
 ## Geometry Import
 
@@ -178,7 +169,6 @@ Each region is assigned a unique identifier so that material properties and sour
 
 A well-defined geometry is essential for obtaining accurate simulation results.
 
----
 
 ## Material Assignment
 
@@ -204,7 +194,6 @@ These properties determine how each region responds to magnetic excitation.
 
 Incorrect material assignment can produce unrealistic magnetic field distributions and inaccurate performance predictions.
 
----
 
 ## Mesh Generation
 
@@ -232,7 +221,6 @@ A finer mesh generally improves solution accuracy but increases computational ti
 
 Mesh independence studies are often performed to determine the optimum mesh density.
 
----
 
 ## Boundary Conditions
 
@@ -254,7 +242,6 @@ $$
 
 This approximates the magnetic field at infinity.
 
----
 
 ### Neumann Boundary Condition
 
@@ -262,7 +249,6 @@ The normal derivative of the magnetic vector potential is specified.
 
 Neumann boundaries are generally used when the magnetic flux crossing the boundary is known.
 
----
 
 ### Periodic Boundary Condition
 
@@ -272,7 +258,6 @@ Only a fraction of the motor is simulated while the remaining geometry is recons
 
 Periodic boundaries significantly reduce computational cost for symmetric machines.
 
----
 
 ### Symmetry Boundary Condition
 
@@ -280,7 +265,6 @@ When the magnetic field is symmetric about a plane, only half or a sector of the
 
 Symmetry conditions reduce the total number of finite elements without affecting solution accuracy.
 
----
 
 ## Solver Configuration
 
@@ -298,7 +282,6 @@ The time step determines the temporal resolution of the simulation.
 
 Smaller time steps improve solution accuracy but increase computational time.
 
----
 
 ### Number of Simulation Steps
 
@@ -306,7 +289,6 @@ The total simulation duration determines how many electrical or mechanical cycle
 
 A sufficient number of steps is required to accurately capture periodic quantities such as torque ripple and back-EMF.
 
----
 
 ### Linear Solver
 
@@ -314,7 +296,6 @@ The assembled finite element equations produce a sparse linear system of equatio
 
 Direct solvers and iterative solvers are commonly employed depending on the problem size and computational resources.
 
----
 
 ### Convergence Criteria
 

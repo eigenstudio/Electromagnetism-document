@@ -6,7 +6,6 @@ In motor applications, electrical current flowing through stator windings produc
 
 This chapter introduces the operating principles of electrical machines, the major machine classifications, and the Brushless DC (BLDC) machine used throughout this manual.
 
----
 
 ## Working Principle of Electrical Machines
 
@@ -33,7 +32,6 @@ where
 
 In electric machines, the relative motion between the rotor magnetic field and stator windings continuously changes the magnetic flux linkage, producing back electromotive force (Back-EMF).
 
----
 
 ### Lorentz Force
 
@@ -51,7 +49,6 @@ where
 
 The combined force acting on all conductors produces electromagnetic torque that rotates the rotor.
 
----
 
 ### Electromechanical Energy Conversion
 
@@ -81,7 +78,6 @@ Mechanical Rotation
 
 Generator operation follows the reverse process, where mechanical rotation produces electrical energy through electromagnetic induction.
 
----
 
 ### Rotating Magnetic Field
 
@@ -101,7 +97,6 @@ where
 
 The rotating magnetic field continuously interacts with the rotor to produce torque.
 
----
 
 ### Torque Production
 
@@ -109,7 +104,6 @@ Electromagnetic torque is produced whenever two magnetic fields attempt to align
 
 In permanent magnet machines, the rotor magnetic field is produced by permanent magnets while the stator magnetic field is produced by three-phase currents. Their interaction generates continuous torque over one electrical cycle.
 
----
 
 ## Types of Electrical Machines
 
@@ -132,7 +126,6 @@ Applications
 - Hoists
 - Laboratory drives
 
----
 
 ### Induction Machines
 
@@ -154,7 +147,6 @@ Applications
 - Compressors
 - Fans
 
----
 
 ### Synchronous Machines
 
@@ -177,7 +169,6 @@ Applications
 - Industrial drives
 - Marine propulsion
 
----
 
 ### Permanent Magnet Synchronous Machines (PMSM)
 
@@ -197,7 +188,6 @@ Applications
 - CNC machines
 - Aerospace
 
----
 
 ### Brushless DC Machines (BLDC)
 
@@ -223,7 +213,6 @@ Applications
 - Cooling fans
 - Home appliances
 
----
 
 ### Switched Reluctance Machines (SRM)
 
@@ -243,7 +232,6 @@ Applications
 - Pumps
 - Aerospace systems
 
----
 
 ### Comparison of Machine Types
 
@@ -255,7 +243,6 @@ Applications
 | BLDC | Permanent magnets | No | Very High | High | Very Low |
 | SRM | Reluctance | No | High | Medium | Very Low |
 
----
 
 ## Brushless DC (BLDC) Machines
 
@@ -265,7 +252,6 @@ The stator contains distributed or concentrated three-phase windings, while the 
 
 An electronic inverter energizes the stator phases in sequence according to the rotor position, producing a rotating magnetic field that drives the rotor.
 
----
 
 ### Construction
 
@@ -282,7 +268,6 @@ A BLDC motor consists of
 
 The stator generates the rotating magnetic field, while the rotor follows this field due to magnetic attraction and repulsion.
 
----
 
 ### Principle of Operation
 
@@ -296,7 +281,6 @@ The operating sequence is
 
 Unlike brushed DC motors, commutation is entirely electronic.
 
----
 
 ### Advantages
 
@@ -310,7 +294,6 @@ Unlike brushed DC motors, commutation is entirely electronic.
 - Excellent dynamic response
 - High-speed capability
 
----
 
 ### Limitations
 
@@ -319,13 +302,11 @@ Unlike brushed DC motors, commutation is entirely electronic.
 - Permanent magnet cost
 - Demagnetization risk at high temperature
 
----
 
 ### BLDC Motor Configurations
 
 BLDC motors are primarily classified according to the direction of magnetic flux.
 
----
 
 ### Radial Flux BLDC Motors
 
@@ -341,7 +322,6 @@ Characteristics
 - Mature manufacturing technology
 - Suitable for high-speed operation
 
----
 
 ### Inrunner BLDC Motor
 
@@ -367,7 +347,6 @@ Applications
 - CNC spindles
 - Industrial actuators
 
----
 
 ### Outrunner BLDC Motor
 
@@ -393,7 +372,6 @@ Applications
 - Robotics
 - Direct-drive systems
 
----
 
 ### Axial Flux BLDC Motors
 
@@ -422,7 +400,6 @@ Applications
 - Industrial servo drives
 - High-performance traction systems
 
----
 
 ### Comparison of BLDC Configurations
 
@@ -436,7 +413,6 @@ Applications
 | Cooling | Excellent | Moderate | Excellent |
 | Typical Applications | Spindles, drones | E-bikes, robotics | EVs, aerospace, traction |
 
----
 
 ## Relevance to This Manual
 

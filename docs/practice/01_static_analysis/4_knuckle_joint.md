@@ -35,7 +35,6 @@ Open the **SALOME** application. From the **Module Selector** located in the SAL
 
   
 
----
 
   
 
@@ -231,7 +230,6 @@ Navigate to the **Features** panel → **Group** tab. Create separate named grou
 
   
 
----
 
   
 
