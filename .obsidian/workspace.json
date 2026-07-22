@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/validation/3_electromagnetic_analysis/1_circular_current_conductor.md",
+                "file": "docs/theory/03_electromagnetic_analysis/11_electromagnetics_appendix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1_circular_current_conductor"
+              "title": "11_electromagnetics_appendix"
             }
           }
         ]
