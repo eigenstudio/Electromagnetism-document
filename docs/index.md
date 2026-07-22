@@ -1,4 +1,3 @@
----
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
@@ -27,5 +26,4 @@ features:
   - title: Practice
     details: Hands-on problem sets, laboratory exercises, and engineering applications.
     link: /practice/
----
 
