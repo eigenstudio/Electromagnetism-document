@@ -22,7 +22,6 @@ To begin a new electromagnetic simulation, click the **Add** button located in t
 
 ![](attachments/Placeholder.png)
 
-> **Figure**: Home page
 
 
 ## A.2 — Select the Simulation Workspace
@@ -38,7 +37,6 @@ Two simulation workspaces are available.
 
 For this tutorial, select **EM Solver**, then click **Input Metadata**.
 
-> **Figure**: Select solver
 
 
  **Note:** The EM Solver workspace automatically generates the motor geometry and finite element mesh from the motor design parameters entered later in the workflow. No external CAD or mesh generation software is required.
@@ -69,7 +67,6 @@ Complete the project details as described below.
 6. Click **Create Project**.
 
 
-> **Figure:**  Project metadata
 
  **Recommendation:** Store each motor simulation in its own dedicated project folder. This keeps generated geometry, meshes, simulation data, and exported results organized throughout the design process.
 
@@ -84,7 +81,6 @@ In the **Select Motor Type** dialog, choose **BLDC (Brushless DC Motor)** from t
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Select Motor Type dialog with **BLDC** selected.*
 
 
 
@@ -96,7 +92,6 @@ Select **Radial Flux**, which is the conventional topology used in most BLDC mot
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Select Flux Type dialog with **Radial Flux** selected.*
 
 
 
@@ -108,7 +103,6 @@ For this practice tutorial, select **Outrunner** and click **Continue in Workspa
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Radial Flux configuration dialog with **Outrunner** selected.*
 
 
 
@@ -122,7 +116,7 @@ Unlike structural simulations, no external CAD software or mesh generation tool 
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Electromagnetic workspace showing the automatically generated default Outrunner BLDC motor geometry.*
+
 
 # PART B — Defining the Motor Geometry
 
@@ -130,7 +124,6 @@ After entering the electromagnetic workspace, the default outrunner BLDC motor g
 
 The geometry is defined by configuring the motor topology, shaft, rotor, stator slot, and airgap dimensions.
 
----
 
 ## B.1 — Define the Motor Topology
 
@@ -149,7 +142,6 @@ Enter the required values and click **Save**.
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Topology dialog showing the motor topology parameters (slots, phases, poles, and stack length).*
 
 
 
@@ -167,7 +159,6 @@ Enter the shaft radius and click **Save**.
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Shaft geometry dialog showing the shaft radius parameter.*
 
 
 
@@ -188,7 +179,6 @@ Configure the rotor parameters and click **Save**.
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Rotor geometry dialog showing rotor dimensions and permanent magnet parameters.*
 
 
 
@@ -211,7 +201,6 @@ After entering all values, click **Save**.
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Slot geometry dialog showing the slot type and dimensional parameters.*
 
 
 
@@ -229,7 +218,6 @@ Enter the required airgap radius and click **Save**.
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Airgap geometry dialog showing the airgap radius parameter.*
 
 
 
@@ -241,7 +229,7 @@ At this stage, the model consists of the shaft, rotor, permanent magnets, stator
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Electromagnetic workspace showing the regenerated outrunner BLDC motor geometry after all geometry parameters have been defined.*
+
 
 # PART C — Assign Material Properties
 
@@ -256,7 +244,6 @@ To assign materials, expand **Material** in the left navigation panel and select
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Assign Material dialog showing the available motor components and their corresponding material assignments.*
 
 
 
@@ -309,7 +296,6 @@ Enter the desired mesh limits and click **Generate Mesh**.
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Mesh Settings dialog showing the minimum and maximum element count used for mesh generation.*
 
 
 
@@ -339,7 +325,7 @@ The **Go to Solver** button becomes available once the mesh has been generated, 
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Right-side Mesh Summary panel showing the generated mesh status, total number of elements, and total number of nodes.*
+
 
 
 ## E.4 — Regenerate the Mesh
@@ -360,7 +346,7 @@ The **Solver** workspace contains all settings required to configure and execute
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Solver workspace showing the analysis configuration panel.*
+
 
 
 ### F.2 — Select Analysis Type
@@ -375,7 +361,7 @@ To configure the solver for an electromagnetic simulation:
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Solver workspace with the **Electromagnetic** analysis type selected.*
+
 
 
 ## F.3 — Configure Drive Settings
@@ -393,9 +379,8 @@ The **Drive Settings** section defines the electrical operating conditions of th
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Drive Settings dialog showing the electrical operating parameters.*
 
----
+
 
 ## F.4 — Configure Winding Configuration
 
@@ -410,9 +395,8 @@ The **Winding Configuration** section is used to define the winding arrangement 
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Winding Configuration dialog showing the phase assignment for the stator windings.*
 
----
+
 
 ## F.5 — Configure Cogging Analysis
 
@@ -426,7 +410,7 @@ Cogging analysis evaluates the cogging torque produced by the interaction betwee
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Cogging dialog showing the cogging analysis settings.*
+
 
 ## F.6 — Configure Time Sweep Settings
 
@@ -440,9 +424,8 @@ The **Time Sweep** settings define the transient simulation duration and time re
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Time Sweep Settings dialog showing the number of cycles and time step parameters.*
 
----
+
 
 ## F.7 — Configure Speed Sweep Settings
 
@@ -457,9 +440,8 @@ The **Speed Sweep** settings define the operating speed range over which the mot
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Speed Sweep Settings dialog showing the start speed, end speed, and speed step parameters.*
 
----
+
 
 ## F.8 — Run the Analysis
 
@@ -474,9 +456,8 @@ The electromagnetic solver initializes the model, applies the defined operating 
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Run Analysis dialog used to start the electromagnetic simulation.*
 
----
+
 
 ## F.9 — Monitor Simulation Progress
 
@@ -496,7 +477,7 @@ The **Job Status** panel displays the following information:
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Solver workspace showing the Job Status panel with the running simulation progress.*
+
 
 # PART F — Post-Processing and Result Visualization
 
@@ -504,7 +485,7 @@ After the simulation has completed successfully, click the **Post-Process** tab 
 
 The **Post-Process** workspace provides tools for visualizing electromagnetic field distributions, plotting simulation results, and reviewing calculated performance parameters.
 
----
+
 
 ## F.1 — Open the Post-Process Workspace
 
@@ -522,9 +503,9 @@ The workspace is divided into three main sections:
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Post-Process workspace showing the contour plot menu, result visualization, and calculations panel.*
 
----
+
+
 
 ## F.2 — Visualize Contour Plots
 
@@ -544,9 +525,8 @@ The following contour plots are available.
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Contour plot options available for electromagnetic field visualization.*
 
----
+
 
 ## F.3 — View Rectangular Plots
 
@@ -569,9 +549,8 @@ Available plots include:
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Rectangular plot options available for electromagnetic simulation results.*
 
----
+
 
 ## F.4 — View Calculation Results/ Summary
 
@@ -586,4 +565,4 @@ The calculations panel displays the numerical values computed during the simulat
 
 ![](attachments/Placeholder.png)
 
-> **Figure:** *Calculations panel displaying the numerical results generated by the electromagnetic simulation.*
+

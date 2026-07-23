@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/practice/01_static_analysis/3_steel_bracket.md",
+                "file": "docs/practice/03_electromagnetic_analysis/1_out-runner_bldc_motor_markers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3_steel_bracket"
+              "title": "1_out-runner_bldc_motor_markers"
             }
           }
         ],
@@ -214,12 +214,13 @@
   },
   "active": "c10604839b7f5d47",
   "lastOpenFiles": [
+    "docs/theory/03_electromagnetic_analysis.zip",
+    "docs/practice/01_static_analysis/3_steel_bracket.md",
     "docs/practice/03_electromagnetic_analysis/1_out-runner_bldc_motor.md",
     "docs/practice/03_electromagnetic_analysis/1_out-runner_bldc_motor_markers copy.md",
     "docs/practice/03_electromagnetic_analysis/1_out-runner_bldc_motor_markers.md",
     "docs/practice/03_electromagnetic_analysis/1_Out-runner_BLDC_motor.md",
     "docs/practice/03_electromagnetic_analysis/1_out-runner_BLDC_motor.md",
-    "docs/practice/01_static_analysis/3_steel_bracket.md",
     "docs/practice/01_static_analysis/4_knuckle_joint.md",
     "docs/practice/01_static_analysis/5_plate_with_a_hole.md",
     "docs/practice/01_static_analysis/6_pressure_vessel.md",
@@ -242,7 +243,6 @@
     "docs/theory/03_electromagnetic_analysis/12_mathematical_appendix.md",
     "docs/theory/03_electromagnetic_analysis/10_fem_solver.md",
     "docs/theory/03_electromagnetic_analysis/11_electromagnetics_appendix.md",
-    "docs/theory/03_electromagnetic_analysis/09_em_analysis_of_bldc_motor.md",
     "docs/theory/03_electromagnetic_analysis/attachments/21_microscopic.png",
     "docs/theory/03_electromagnetic_analysis/attachments/Pasted image 20260721184100.png",
     "docs/theory/03_electromagnetic_analysis/attachments/01_em_analysis.png",
