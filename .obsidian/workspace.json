@@ -1,25 +1,25 @@
 {
   "main": {
-    "id": "2ab2469aef4c107a",
+    "id": "1db8301717f76179",
     "type": "split",
     "children": [
       {
-        "id": "d2a1d531c299613c",
+        "id": "bcb7c2275ff053ee",
         "type": "tabs",
         "children": [
           {
-            "id": "a66a253fb6172519",
+            "id": "f20e5934ee1cdc23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/theory/03_electromagnetic_analysis/11_electromagnetics_appendix.md",
+                "file": "docs/theory/03_electromagnetic_analysis/12_mathematical_appendix.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "11_electromagnetics_appendix"
+              "title": "12_mathematical_appendix"
             }
           }
         ]
@@ -28,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5d58c1959404f42f",
+    "id": "f74d9c99d38045c7",
     "type": "split",
     "children": [
       {
-        "id": "cb82e2e36f50b735",
+        "id": "066e9cf16240c6a3",
         "type": "tabs",
         "children": [
           {
-            "id": "24da4ed50b9f6869",
+            "id": "78ad96f94a018427",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,7 +49,7 @@
             }
           },
           {
-            "id": "60d77471358ee9ca",
+            "id": "0f9d6b7395545d9d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +66,7 @@
             }
           },
           {
-            "id": "080d95cf79650241",
+            "id": "d766e4cef326fcf5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,23 +79,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 374.5
   },
   "right": {
-    "id": "90ec4f64d29ab618",
+    "id": "3d423b82c982d045",
     "type": "split",
     "children": [
       {
-        "id": "dd7c78599c9d3885",
+        "id": "fda26b994ecf35d5",
         "type": "tabs",
         "children": [
           {
-            "id": "e6e474fba726385e",
+            "id": "f0ebc70535f1e41d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/validation/01_linear_static_2d_benchmarks/attachments/Pasted image 20260428170303.png",
+                "file": "docs/developement/01_getting_started/06_reset_password.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20260428170303"
+              "title": "Backlinks for 06_reset_password"
             }
           },
           {
-            "id": "59f3c75377ab1ca6",
+            "id": "7ac653796e338918",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/validation/01_linear_static_2d_benchmarks/attachments/Pasted image 20260428170303.png",
+                "file": "docs/developement/01_getting_started/06_reset_password.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20260428170303"
+              "title": "Outgoing links from 06_reset_password"
             }
           },
           {
-            "id": "b6bb206ad537d29a",
+            "id": "4bb1b754ef1ec117",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,7 +138,7 @@
             }
           },
           {
-            "id": "6b9c9c88c0800f4d",
+            "id": "c641f595bae40e2a",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -152,22 +152,22 @@
             }
           },
           {
-            "id": "07de3640799b6646",
+            "id": "f5b32d14caf31453",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/validation/01_linear_static_2d_benchmarks/attachments/Pasted image 20260428170303.png",
+                "file": "docs/developement/01_getting_started/06_reset_password.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20260428170303"
+              "title": "Outline of 06_reset_password"
             }
           },
           {
-            "id": "13ff1f7523160cd7",
+            "id": "ea11a03ba515df1b",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -196,53 +196,53 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "a66a253fb6172519",
+  "active": "f20e5934ee1cdc23",
   "lastOpenFiles": [
     "docs/theory/03_electromagnetic_analysis/10_fem_solver.md",
+    "docs/theory/03_electromagnetic_analysis/11_electromagnetics_appendix.md",
+    "docs/theory/03_electromagnetic_analysis/09_em_analysis_of_bldc_motor.md",
     "docs/theory/03_electromagnetic_analysis/08_material_definition.md",
     "docs/theory/03_electromagnetic_analysis/07_shaft_params.md",
     "docs/theory/03_electromagnetic_analysis/06_rotor_params.md",
     "docs/theory/03_electromagnetic_analysis/05_stator_parameters.md",
+    "docs/theory/03_electromagnetic_analysis/attachments/21_microscopic.png",
     "docs/theory/03_electromagnetic_analysis/04_permanent_magnet_bldc_machine_theory.md",
     "docs/theory/03_electromagnetic_analysis/03_why_motors_need_em_analysis.md",
     "docs/theory/03_electromagnetic_analysis/02_fundamentals_of_electromagnetics.md",
     "docs/theory/03_electromagnetic_analysis/01_introduction_to_electromagnetic_analysis.md",
-    "docs/theory/03_electromagnetic_analysis/11_electromagnetics_appendix.md",
-    "docs/theory/03_electromagnetic_analysis/12_mathematical_appendix.md",
-    "docs/validation/3_electromagnetic_analysis/attachments/geometry_circular.png",
+    "docs/theory/03_electromagnetic_analysis/attachments/Pasted image 20260721184100.png",
+    "docs/theory/03_electromagnetic_analysis/attachments/01_em_analysis.png",
+    "docs/validation/1_static_analysis/attachments/check5.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_Az_contour.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_comparison.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_B_contour.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseB_Az_contour.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_geometry.png",
+    "docs/validation/3_electromagnetic_analysis/attachments/parallel_caseA_comparison.png",
+    "docs/validation/3_electromagnetic_analysis/index.md",
+    "docs/validation/3_electromagnetic_analysis/2_straight_current_conductor.md",
+    "docs/validation/3_electromagnetic_analysis/attachments",
+    "docs/validation/3_electromagnetic_analysis/3_parallel_current_conductor.md",
     "docs/validation/3_electromagnetic_analysis/1_circular_current_conductor.md",
-    "docs/practice/01_getting_started/attachments/ecm.png",
-    "docs/practice/01_getting_started/attachments",
-    "docs/developement/01_getting_started/01_access_the_platform.md",
-    "docs/developement/01_getting_started/attachments/ecm.png",
-    "docs/developement/01_getting_started/02_create_account_login.md",
-    "docs/validation/02_membrane_benchmark_problems/01_tapered_membrane_end_load.md",
-    "docs/validation/02_membrane_benchmark_problems/attachments/1TEST1.png",
-    "docs/public/threedview.png",
-    "docs/lib/utils.ts",
-    "docs/components/ui/button/index.ts",
-    "docs/components/ui/button/Button.vue",
-    "docs/components/ui/badge/Badge.vue",
-    "docs/components/ui/badge/index.ts",
-    "docs/components/ui/button",
-    "docs/components/ui/badge",
-    "docs/components/ui",
-    "docs/lib",
-    "docs/node_modules/@modelcontextprotocol/sdk/README.md",
-    "docs/node_modules/hono/README.md",
-    "docs/node_modules/eslint/README.md",
-    "docs/node_modules/@ts-morph/common/readme.md",
-    "docs/node_modules/lodash-es/README.md",
-    "docs/node_modules/undici/types/README.md",
-    "docs/node_modules/undici/README.md",
-    "docs/node_modules/zod/README.md",
-    "docs/node_modules/ajv/README.md",
-    "docs/node_modules/undici/docs/docs/api/api-lifecycle.md",
-    "docs/node_modules/undici/docs/docs/api/WebSocket.md",
-    "docs/developement/01_getting_started/attachments/Pasted image 20260429183522.png",
-    "docs/developement/01_getting_started/attachments/Pasted image 20260429183443.png",
-    "docs/developement/01_getting_started/attachments/Pasted image 20260429183443 1.png",
-    "docs/developement/01_getting_started/attachments/Pasted image 20260429183357.png",
-    "docs/developement/01_getting_started/attachments/Pasted image 20260429183252.png"
+    "docs/validation/3_electromagnetic_analysis",
+    "docs/theory/3_electromagnetic_analysis/index.md",
+    "docs/theory/3_electromagnetic_analysis",
+    "docs/practice/3_electromagnetic_analysis/index.md",
+    "docs/practice/3_electromagnetic_analysis",
+    "docs/interface/4_electromagnetic_analysis/index.md",
+    "docs/interface/4_electromagnetic_analysis",
+    "docs/interface/3_dynamic_analysis/index.md",
+    "docs/interface/3_dynamic_analysis",
+    "docs/interface/2_static_analysis/index.md",
+    "docs/interface/2_static_analysis",
+    "docs/interface/4_post_processing_workflow/index.md",
+    "docs/interface/4_post_processing_workflow/22-reaction-forces.md",
+    "docs/interface/4_post_processing_workflow/21-strain-results.md",
+    "docs/interface/4_post_processing_workflow/20-stress-results.md",
+    "docs/interface/4_post_processing_workflow/19-displacement-results.md",
+    "docs/interface/4_post_processing_workflow/18-data-extraction.md",
+    "docs/interface/4_post_processing_workflow",
+    "docs/interface/3_solver_settings",
+    "docs/interface/2_pre_processing_workflow"
   ]
 }
