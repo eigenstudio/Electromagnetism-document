@@ -1,6 +1,6 @@
 # Electromagnetic analysis of a BLDC motor 
 
-Electromagnetic analysis of a BLDC motor involves solving Maxwell's equations over the defined machine geometry using the specified material properties, excitation conditions, and operating parameters. Before a simulation can be performed, the solver requires a complete description of the motor geometry, electrical excitation, operating conditions, and analysis settings. Once the simulation is complete, the solver computes various electromagnetic quantities that describe the machine's performance. These results enable engineers to evaluate the design, identify potential issues, and optimize the motor before physical manufacturing.
+Electromagnetic analysis of a BLDC motor involves solving Maxwell's equations over the defined machine geometry using the specified material properties, excitation conditions, and operating parameters. Before a simulation can be performed, the solver requires a complete description of the motor geometry, electrical excitation, operating conditions, and analysis settings. Once the simulation is complete, the solver computes various electromagnetic quantities that describe the machine's performance. These results enable engineers to evaluate the design, identify potential issues, and optimise the motor before physical manufacturing.
 
 ## What input parameters are required?
 
@@ -28,6 +28,7 @@ The geometry parameters define the physical dimensions of every component within
 
 Their values directly influence magnetic flux distribution, saturation, leakage flux, torque production, and machine efficiency. Even small geometric variations can significantly alter the electromagnetic behaviour of the motor.
 
+Detailed geometry definitions are provided in [Geometry of the Stator](05_stator_parameters.md), [Geometry of the Rotor](06_rotor_params.md), and [Geometry of the Shaft](07_shaft_params.md).
 ### Rated power
 
 **Unit:** W (or kW)
@@ -51,6 +52,8 @@ The applied voltage determines the current flowing through the windings and cons
 Rated speed specifies the intended rotational speed of the motor during continuous operation.
 
 It determines the electrical frequency of operation and directly affects induced back EMF, mechanical output power, and centrifugal stresses experienced by the rotor.
+
+The operating principles of the BLDC machine are discussed in [Permanent Magnet BLDC Machine Theory](04_permanent_magnet_bldc_machine_theory.md).
 
 ### Source parameters
 
@@ -82,8 +85,7 @@ The following table summarizes the principal simulation outputs.
 | Power-Speed Curve      | W or kW vs rpm | Shows available output power across speed range.  |
 | Efficiency-Speed Curve | % vs rpm       | Identifies the most efficient operating region.   |
 | Current-Speed Curve    | A vs rpm       | Indicates electrical loading requirements.        |
-|                        |                |                                                   |
-
+The governing electromagnetic equations solved during each simulation step are derived in [Finite Element Solver](10_fem_solver.md).
 # Time sweep analysis
 
 Time sweep analysis solves the electromagnetic field equations at successive time steps while the rotor rotates continuously.
@@ -162,6 +164,7 @@ The current-speed curve indicates the electrical current required to operate the
 
 Higher current generally corresponds to greater torque production but also results in increased copper losses and winding temperature. This curve is widely used when selecting power electronic converters and determining thermal limits.
 
+Mathematical definitions of all electromagnetic quantities are compiled in [Electromagnetic Appendix](11_electromagnetics_appendix.md).
 ## Summary
 
 Electromagnetic analysis begins with the definition of the machine geometry, operating conditions, excitation sources, and simulation settings. The finite element solver then computes the electromagnetic field distribution from which important engineering quantities such as flux linkage, back EMF, torque, efficiency, and speed characteristics are obtained.

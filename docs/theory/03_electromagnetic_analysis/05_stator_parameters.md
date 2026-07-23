@@ -27,7 +27,6 @@ The software generates the stator using a set of geometric parameters. These par
 
 The following parameters are used to construct the stator geometry.
 
-
 ## Stator geometry parameters
 
 ![](attachments/10_stator_params.png)
@@ -173,6 +172,6 @@ Defines the number of electrically parallel current paths within each phase wind
 
 Coil pitch represents the angular separation between the two sides of a coil measured in slot pitches. It influences the winding factor, harmonic content, induced voltage, and torque characteristics of the machine.
 
+The electromagnetic behaviour of the windings is analysed in [Electromagnetic analysis of a BLDC Motor](09_em_analysis_of_bldc_motor.md). The material properties assigned to each stator component are described in [Material Definition](08_material_definition.md).
 ## Summary
-
 The electromagnetic performance of the stator is strongly governed by its geometric dimensions. Parameters such as slot width, slot depth, tooth width, slot opening, and insulation dimensions directly influence magnetic flux distribution, conductor accommodation, leakage flux, saturation, and overall machine performance. The parametric approach adopted in this software enables rapid generation and optimisation of different stator slot configurations while maintaining consistent electromagnetic modelling.

@@ -15,7 +15,7 @@ The computed field quantities are used to evaluate important performance paramet
 
 **Figure 1:** Visual representation of electromagnetic analysis
 
-
+The fundamental concepts of electric and magnetic fields introduced here are explained in detail in [Fundamentals of electromagnetics](02_fundamentals_of_electromagnetics.md).
 ## Why is electromagnetic analysis required?
 
 Modern electromagnetic devices often possess complex geometries, nonlinear magnetic materials, and coupled electrical and mechanical phenomena that cannot be accurately analysed using analytical equations alone. 
@@ -43,7 +43,7 @@ Electromagnetic analysis consists of a sequence of extensive steps required for 
 
 **Figure 2:** Electromagnetic analysis workflow
 
-
+The complete simulation workflow, input parameters, and generated results are discussed in [Electromagnetic analysis of a BLDC motor](09_em_analysis_of_bldc_motor.md). 
 ## How will this manual help you understand?
 
 This manual focuses on the finite element analysis of permanent magnet BLDC machines. Throughout the following chapters, the theoretical concepts of electromagnetics are progressively developed, beginning with the fundamental principles of electric and magnetic fields, followed by Maxwell's equations, constitutive relations, and finite element formulations. These concepts are then applied to model, simulate, and analyse electromagnetic quantities such as magnetic flux distribution, back EMF, electromagnetic torque, and machine performance.
