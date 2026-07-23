@@ -39,7 +39,7 @@ Electromagnetic analysis is described using a set of physical quantities that ch
 | Magnetic Field Intensity | $\mathbf{H}$  | A/m     | Magnetizing force that produces magnetic flux.            |
 | Magnetomotive Force      | $\mathcal{F}$ | At      | Magnetic potential produced by current-carrying windings. |
 | Magnetic Reluctance      | $\mathcal{R}$ | At/Wb   | Opposition to magnetic flux in a magnetic path.           |
-Definitions, units, and governing equations for these quantities are compiled in [Electromagnetic appendix](11_electromagnetic_appendix.md).
+Definitions, units, and governing equations for these quantities are compiled in [Electromagnetic appendix](11_electromagnetics_appendix.md).
 ## How are these concepts used in electric machine analysis?
 In permanent magnet BLDC machines, electric currents generate magnetic fields that interact with permanent magnets to produce torque. Finite element analysis solves for quantities such as magnetic flux density, flux linkage, back EMF, force, and torque using the electromagnetic principles introduced in this chapter.
 
