@@ -83,7 +83,6 @@ In the **Select Motor Type** dialog, choose **BLDC (Brushless DC Motor)** from t
 
 
 
-
 ### A.4.2 — Select the Flux Type
 
 The next dialog allows you to choose the magnetic flux topology of the motor.
@@ -94,7 +93,6 @@ Select **Radial Flux**, which is the conventional topology used in most BLDC mot
 
 
 
-
 ### A.4.3 — Select the Radial Flux Motor Subtype
 
 After selecting **Radial Flux**, additional motor topologies become available.
@@ -102,7 +100,6 @@ After selecting **Radial Flux**, additional motor topologies become available.
 For this practice tutorial, select **Outrunner** and click **Continue in Workspace**.
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -144,7 +141,6 @@ Enter the required values and click **Save**.
 
 
 
-
 ## B.2 — Define the Shaft
 
 The shaft dimensions determine the central supporting shaft around which the rotor rotates.
@@ -158,7 +154,6 @@ Enter the shaft radius and click **Save**.
 | Shaft Radius | Radius of the motor shaft |
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -178,7 +173,6 @@ Configure the rotor parameters and click **Save**.
 | Magnet Fill Factor | Percentage of rotor surface occupied by magnets |
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -203,7 +197,6 @@ After entering all values, click **Save**.
 
 
 
-
 ## B.5 — Define the Airgap
 
 The airgap is the radial distance between the rotor and stator and has a significant influence on the electromagnetic performance of the motor.
@@ -217,7 +210,6 @@ Enter the required airgap radius and click **Save**.
 | Airgap Radius | Radial airgap between the rotor and stator |
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -243,7 +235,6 @@ Unlike structural analysis, the electromagnetic solver requires two primary mate
 To assign materials, expand **Material** in the left navigation panel and select **Assign Material**.
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -298,7 +289,6 @@ Enter the desired mesh limits and click **Generate Mesh**.
 
 
 
-
 ## E.2 — Generate the Mesh
 
 Click **Generate Mesh** to begin mesh generation. The software automatically discretizes the motor geometry into finite elements suitable for electromagnetic analysis.
@@ -327,7 +317,6 @@ The **Go to Solver** button becomes available once the mesh has been generated, 
 
 
 
-
 ## E.4 — Regenerate the Mesh
 
 If any geometry parameter is modified after the mesh has been generated, the existing mesh becomes outdated.
@@ -348,7 +337,6 @@ The **Solver** workspace contains all settings required to configure and execute
 
 
 
-
 ### F.2 — Select Analysis Type
 
 To configure the solver for an electromagnetic simulation:
@@ -360,7 +348,6 @@ To configure the solver for an electromagnetic simulation:
 5. Verify that the **Electromagnetic** analysis type is enabled before proceeding to the analysis settings.
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -381,7 +368,6 @@ The **Drive Settings** section defines the electrical operating conditions of th
 
 
 
-
 ## F.4 — Configure Winding Configuration
 
 The **Winding Configuration** section is used to define the winding arrangement for the stator slots.
@@ -394,7 +380,6 @@ The **Winding Configuration** section is used to define the winding arrangement 
 6. Click **Save**.
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -426,7 +411,6 @@ The **Time Sweep** settings define the transient simulation duration and time re
 
 
 
-
 ## F.7 — Configure Speed Sweep Settings
 
 The **Speed Sweep** settings define the operating speed range over which the motor performance will be evaluated.
@@ -442,7 +426,6 @@ The **Speed Sweep** settings define the operating speed range over which the mot
 
 
 
-
 ## F.8 — Run the Analysis
 
 After configuring all analysis and sweep settings, the simulation is ready to execute.
@@ -455,7 +438,6 @@ After configuring all analysis and sweep settings, the simulation is ready to ex
 The electromagnetic solver initializes the model, applies the defined operating conditions, and begins solving the finite element problem.
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -505,8 +487,6 @@ The workspace is divided into three main sections:
 
 
 
-
-
 ## F.2 — Visualize Contour Plots
 
 The **Contour Plot** section displays the spatial distribution of electromagnetic field quantities on the motor geometry.
@@ -524,7 +504,6 @@ The following contour plots are available.
 | **Btheta** | Tangential component of the magnetic flux density. |
 
 ![](attachments/Placeholder.png)
-
 
 
 
@@ -548,7 +527,6 @@ Available plots include:
 | **Efficiency** | Motor efficiency over the operating condition. |
 
 ![](attachments/Placeholder.png)
-
 
 
 
