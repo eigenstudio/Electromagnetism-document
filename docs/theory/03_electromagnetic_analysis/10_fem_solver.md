@@ -2,8 +2,9 @@
 
 The electromagnetic behaviour of a BLDC motor is governed by Maxwell's equations, which describe the interaction between electric and magnetic fields. Due to the complex geometry of electrical machines, nonlinear magnetic materials, and continuously rotating components, analytical solutions are generally not feasible.
 
-The Finite Element Method (FEM) provides a numerical framework for solving these governing equations over the motor geometry. By discretizing the computational domain into a large number of finite elements, the solver accurately predicts magnetic field distribution, flux linkage, electromagnetic torque, Back EMF, and other performance quantities.
+The Finite Element Method (FEM) provides a numerical framework for solving these governing equations over the motor geometry. By discretising the computational domain into a large number of finite elements, the solver accurately predicts magnetic field distribution, flux linkage, electromagnetic torque, Back EMF, and other performance quantities.
 
+The physical motivation for electromagnetic analysis is introduced in [Introduction to electromagnetic analysis](01_introduction_to_electromagnetic_analysis.md).
 
 ## Why is transient simulation required?
 
@@ -137,6 +138,7 @@ $$
 
 This equation represents the primary governing equation for magnetostatic and transient magnetic field analysis.
 
+The vector calculus operators used throughout this section are summarised in [Mathematical Appendix](12_mathematical_appendix.md).
 
 ### Constitutive relations
 
@@ -194,7 +196,7 @@ $$
 where
 
 - $\mathbf{B_r}$ = Remanent magnetic flux density (T)
-- $\mathbf{M}$ = Magnetization vector (A/m)
+- $\mathbf{M}$ = Magnetisation vector (A/m)
 
 This formulation enables the permanent magnets to be incorporated directly into the finite element model.
 
@@ -274,10 +276,10 @@ $$
 
 This is the governing partial differential equation solved by the finite element solver.
 
-
+The material properties used in these equations are described in [Material definition](08_material_definition.md).
 ## How is the geometry meshed?
 
-Before the governing equations can be solved, the motor geometry must be discretized into a finite number of small elements. This process is known as **mesh generation**.
+Before the governing equations can be solved, the motor geometry must be discretised into a finite number of small elements. This process is known as **mesh generation**.
 
 For two-dimensional electromagnetic analysis, triangular finite elements are typically employed because they accurately represent complex machine geometries while maintaining computational efficiency.
 
@@ -299,7 +301,7 @@ The complete computational mesh consists of thousands of interconnected elements
 
 Mesh convergence studies are commonly performed to ensure that the computed solution is independent of the selected mesh resolution.
 
-
+The geometric parameters used to construct the computational model are defined in [Geometry of the stator](05_stator_parameters), [Geometry of the rotor](06_rotor_params) and [Geometry of the shaft](07_shaft_params).
 ## How are the electromagnetic quantities calculated?
 
 Once the magnetic vector potential has been obtained, all engineering quantities are derived from the field solution.
@@ -410,7 +412,7 @@ $$
 
 Efficiency measures how effectively the motor converts electrical input power into useful mechanical output power.
 
-
+A complete list of the governing electromagnetic equations is available in [Electromagnetic appendix](11_electromagnetics_appendix.md).
 ## Summary
 
 The Finite Element Method enables accurate numerical solution of the electromagnetic field equations governing BLDC motor operation. The solver begins by discretizing the machine geometry into finite elements, after which Maxwell's equations are solved using the magnetic vector potential formulation.

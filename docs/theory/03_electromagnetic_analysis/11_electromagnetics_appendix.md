@@ -2,7 +2,7 @@
 
 The electromagnetic concepts presented in this appendix provide the mathematical foundation for the governing equations used throughout this manual. These equations describe the behaviour of electric and magnetic fields, material properties, electromagnetic induction, and energy conversion in electrical machines.
 
-
+These equations are referenced throughout [Electromagnetic analysis of a BLDC motor](09_em_analysis_of_bldc_motor.md) and [Finite Element Method solver](10_fem_solver.md).
 ## Fundamental Electromagnetic Quantities
 
 ### Electric Field Intensity
@@ -384,33 +384,33 @@ $$
 \times100\%
 $$
 
-
+The mathematical operators appearing in these equations are summarised in [Mathematical Appendix](12_mathematical_appendix.md).
 ## Common Electromagnetic Constants
 
-| Quantity | Symbol | Value |
-|----------|--------|--------|
-| Permeability of Free Space | $\mu_0$ | $4\pi\times10^{-7}$ H/m |
+| Quantity                   | Symbol          | Value                     |
+| -------------------------- | --------------- | ------------------------- |
+| Permeability of Free Space | $\mu_0$         | $4\pi\times10^{-7}$ H/m   |
 | Permittivity of Free Space | $\varepsilon_0$ | $8.854\times10^{-12}$ F/m |
-| Speed of Light | $c$ | $2.998\times10^8$ m/s |
-| Elementary Charge | $e$ | $1.602\times10^{-19}$ C |
+| Speed of Light             | $c$             | $2.998\times10^8$ m/s     |
+| Elementary Charge          | $e$             | $1.602\times10^{-19}$ C   |
 
 
 ## Common Electromagnetic Units
 
-| Quantity | Symbol | SI Unit |
-|----------|--------|----------|
-| Electric Field | $\mathbf{E}$ | V/m |
-| Electric Flux Density | $\mathbf{D}$ | C/m² |
-| Magnetic Flux Density | $\mathbf{B}$ | T |
-| Magnetic Field Intensity | $\mathbf{H}$ | A/m |
-| Magnetic Flux | $\Phi$ | Wb |
-| Current Density | $\mathbf{J}$ | A/m² |
-| Magnetic Vector Potential | $\mathbf{A}$ | Wb/m |
-| Flux Linkage | $\lambda$ | Wb-turn |
-| Back EMF | $e$ | V |
-| Torque | $T$ | N·m |
-| Power | $P$ | W |
-| Efficiency | $\eta$ | % |
+| Quantity                  | Symbol       | SI Unit |
+| ------------------------- | ------------ | ------- |
+| Electric Field            | $\mathbf{E}$ | V/m     |
+| Electric Flux Density     | $\mathbf{D}$ | C/m²    |
+| Magnetic Flux Density     | $\mathbf{B}$ | T       |
+| Magnetic Field Intensity  | $\mathbf{H}$ | A/m     |
+| Magnetic Flux             | $\Phi$       | Wb      |
+| Current Density           | $\mathbf{J}$ | A/m²    |
+| Magnetic Vector Potential | $\mathbf{A}$ | Wb/m    |
+| Flux Linkage              | $\lambda$    | Wb-turn |
+| Back EMF                  | $e$          | V       |
+| Torque                    | $T$          | N·m     |
+| Power                     | $P$          | W       |
+| Efficiency                | $\eta$       | %       |
 
 
 These equations constitute the fundamental mathematical framework for electromagnetic field analysis. They are referenced throughout the theoretical development of Maxwell's equations, magnetic vector potential formulations, finite element analysis, and the computation of engineering quantities such as magnetic flux density, flux linkage, Back EMF, torque, and efficiency.

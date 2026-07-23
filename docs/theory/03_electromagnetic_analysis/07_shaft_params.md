@@ -4,6 +4,7 @@ The shaft is the central mechanical component of the rotor assembly that support
 
 The software defines the shaft using a parametric geometry, allowing different shaft configurations to be generated depending on the mechanical requirements of the machine. Depending on the selected shaft type, additional geometric parameters become available for defining the shaft structure.
 
+The shaft forms an integral part of the rotor assembly described in [Geometry of the rotor](06_rotor_params.md).
 
 ## What are the different shaft configurations?
 
