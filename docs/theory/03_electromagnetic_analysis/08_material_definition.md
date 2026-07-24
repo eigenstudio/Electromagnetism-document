@@ -30,7 +30,7 @@ Selecting appropriate materials for each component improves efficiency, reduces 
 The following table summarizes the materials commonly assigned to each component of a surface-mounted permanent magnet BLDC motor.
 
 ![](attachments/15_material.png)
-**Figure 1:** Material assignment in BLDC motors.
+**Figure 1:** Material assignment in a BLDC motor showing the stator core, rotor core, permanent magnets, windings, shaft, retaining sleeve, slot insulation, and air gap. The diagram links each machine component to the typical materials used and highlights their functional role in the electromagnetic model. This emphasises that material selection is critical for controlling magnetic flux paths, resistive losses, mechanical support, and insulation performance.
 
 | Machine Component | Typical Material | Primary Purpose |
 |-------------------|------------------|-----------------|
@@ -54,7 +54,7 @@ For permanent magnets, additional parameters such as remanent flux density, coer
 
 Electrical conductors are primarily characterized by their electrical conductivity, resistivity, and temperature coefficient, while insulating materials are defined by their dielectric strength and electrical resistivity.
 
-These properties appear directly in the constitutive relations presented in [Finite Element Solver](10_fem_solver.md). Governing electromagnetic equations involving these material properties are summarised in [Electromagnetic Appendix](11_electromagnetics_appendix.md).
+These properties appear directly in the constitutive relations presented in [Finite Element Solver](11_fem_solver.md). Governing electromagnetic equations involving these material properties are summarised in [Electromagnetic Appendix](12_electromagnetics_appendix.md).
 
 ## Summary
 
