@@ -16,7 +16,7 @@ The machine consists of two primary components:
 
 Electronic commutation ensures that the stator magnetic field continuously pulls the rotor, producing continuous rotation. 
 
-![](attachments/07_BLDC_motor_component.png)
+![](attachments/theory4-1.png)
 
 **Figure 1:** Construction of a permanent magnet BLDC machine showing stator, rotor, air-gap, and permanent magnets. This is particularly an in-runner BLDC motor as the rotor is on the inner side.
 
@@ -50,6 +50,7 @@ The stator and rotor are arranged concentrically, producing a cylindrical magnet
 Radial flux BLDC machines can be broadly classified into two configurations.
 
 #### Inrunner BLDC Motors
+![](attachments/theory4-2.png)
 
 In an inrunner motor, the rotor is located inside the stator, and the permanent magnets rotate within the stationary stator windings.
 
@@ -62,7 +63,11 @@ Characteristics of inrunner motors include:
 - Commonly used in industrial drives and high-speed applications.
 
 The stator and rotor parameterisation presented throughout this manual primarily follows the inrunner machine configuration. The geometric parameters are described in [Geometry of the Stator](05_stator_parameters.md) and [Geometry of the rotor](06_rotor_params.md).
+
+
+
 #### Outrunner BLDC Motors
+![](attachments/theory4-3.png)
 
 In an outrunner motor, the rotor surrounds the stator and rotates externally while the stator remains fixed at the centre.
 

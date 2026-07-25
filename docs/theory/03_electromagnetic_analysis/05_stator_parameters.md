@@ -7,7 +7,8 @@ The stator consists of laminated electrical steel containing uniformly distribut
 ## What are the main parts of the stator?
 
 The stator consists of two primary magnetic components together with the winding system that produces the rotating magnetic field.
-![](attachments/28_stator_parameters.png)
+
+![](attachments/theory5-1.png)
 **Figure 1:** Stator parameter illustration showing the stator yoke, stator teeth, rotor, and shaft within a radial flux BLDC machine. The figure identifies the outer and inner stator diameters and highlights how the stator geometry defines the magnetic circuit and winding space. These parameters are fundamental to defining the machine’s air-gap, magnetic loading, and overall electromagnetic performance.
 ## Stator yoke
 
@@ -18,7 +19,8 @@ The stator yoke forms the outer magnetic path of the machine. It provides mechan
 The stator teeth extend radially towards the air gap and define the geometry that accommodates the stator windings. Their dimensions strongly influence magnetic loading, tooth saturation, leakage flux, cogging torque, and the available conductor area.
 
 ## Stator tooth types
-![](attachments/27_teeth_type.png)
+
+![](attachments/theory5-2.png)
 **Figure 2:** Stator tooth type examples showing parallel tooth, tapered, capsule, slotless, parallel slot, and form-wound profiles. The illustration demonstrates how different tooth shapes alter the slot opening, winding volume, and magnetic flux path. Choosing the right tooth geometry helps balance manufacturability, cogging torque, magnetic saturation, and winding accommodation.
 
 The geometry of the stator teeth significantly influences the electromagnetic performance of a BLDC machine, affecting magnetic flux distribution, winding accommodation, cogging torque, leakage flux, manufacturability, and thermal characteristics. To support a wide range of machine designs, the software provides several predefined stator tooth geometries.
@@ -44,7 +46,8 @@ The software generates the stator using a set of geometric parameters. These par
 The following parameters are used to construct the stator geometry.
 
 ## Stator geometry parameters
-![](attachments/26_stator_geometry.png)
+
+![](attachments/theory5-3.png)
 **Figure 3:** Stator geometry parameter diagram showing tooth opening depth, tooth neck depth, tooth body depth, and slot width dimensions. The figure links the dimensional parameters to the physical slot and tooth shape used to generate the stator geometry. These values directly affect magnetic flux distribution, slot leakage, and coil accommodation in the finite element model.
 ### Stator inner radius
 
@@ -108,9 +111,6 @@ The stator windings are insulated conductors placed inside the stator slots to p
 
 The software allows the winding configuration to be defined parametrically, enabling different winding layouts to be created for various motor topologies.
 
-![](attachments/22_windings.png)
-**Figure 4:** Comparison of lap winding and concentric winding layouts for BLDC stators. The diagrams show coil connection paths, phase distribution, and the differences in how each winding occupies stator slots. This helps explain how winding topology influences parallel paths, induced voltage, current distribution, and machine performance.
-
 ## Stator winding parameters
 ### Windings per phase
 
@@ -122,13 +122,14 @@ Increasing the number of windings per phase generally increases the generated ma
 
 Defines the physical arrangement of the stator coils within the slots. The software currently supports three winding configurations.
 
-![](attachments/22_windings.png)
 #### Lap winding
 
+![](attachments/Lap_winding.png)
 In a lap winding, adjacent coils overlap each other and are distributed around the stator circumference. This arrangement provides a uniform magnetic field distribution and is widely used in distributed winding BLDC and synchronous machines.
 
 #### Concentric winding
 
+![](attachments/con_winding.png)
 A concentric winding consists of multiple coils having different diameters but sharing a common centre. These windings are simpler to manufacture and are commonly used in fractional-slot and concentrated winding machines.
 
 #### Custom winding

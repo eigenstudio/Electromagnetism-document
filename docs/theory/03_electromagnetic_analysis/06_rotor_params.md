@@ -9,7 +9,7 @@ The operating principle of the rotor is introduced in [Permanent magnet BLDC mac
 
 The rotor consists of several components that together generate the magnetic field required for motor operation.
 
-![](attachments/12_rotor_params.png)
+![](attachments/theory6-1.png)
 **Figure 1:** Cross-sectional view of the rotor showing the rotor yoke, alternating pole permanent magnets, air gap, and shaft. The illustration highlights the surface-mounted magnet arrangement and the magnetic return path through the laminated steel yoke. It emphasises how the rotor geometry and magnet placement determine the air-gap flux distribution and torque-producing field interaction.
 ### Rotor yoke
 
@@ -25,7 +25,7 @@ The magnetic properties of permanent magnets are discussed in [Material definiti
 
 The software constructs the rotor using a set of geometric parameters describing the permanent magnets, rotor core, shaft, and air gap. These parameters determine both the electromagnetic behaviour and the mechanical characteristics of the machine.
 
-![](attachments/13_rotor_params.png)
+![](attachments/theory6-2.png)
 **Figure 2:** Detailed rotor parameter diagram showing magnet thickness, magnet reduction, magnet arc angle, segmented magnet layout, rotor diameter, shaft diameter, shaft hole diameter, banding thickness, and air-gap. The figure identifies the key parametric dimensions that shape the rotor’s magnetic circuit and mechanical structure. These parameters are critical for controlling magnetic loading, back EMF, cogging torque, and the structural integrity of the rotor assembly.
 
 The following parameters are used to define the rotor geometry.
