@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/theory/03_electromagnetic_analysis/04_permanent_magnet_bldc_machine_theory.md",
+                "file": "docs/theory/03_electromagnetic_analysis/06_rotor_params.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "04_permanent_magnet_bldc_machine_theory"
+              "title": "06_rotor_params"
             }
           }
         ],
@@ -214,11 +214,11 @@
   },
   "active": "c10604839b7f5d47",
   "lastOpenFiles": [
-    "docs/theory/03_electromagnetic_analysis/08_material_definition.md",
+    "docs/theory/03_electromagnetic_analysis/05_stator_parameters.md",
     "docs/theory/03_electromagnetic_analysis/04_permanent_magnet_bldc_machine_theory.md",
+    "docs/theory/03_electromagnetic_analysis/08_material_definition.md",
     "docs/theory/03_electromagnetic_analysis/09_em_analysis_of_bldc_motor.md",
     "docs/theory/03_electromagnetic_analysis/03_why_motors_need_em_analysis.md",
-    "docs/theory/03_electromagnetic_analysis/05_stator_parameters.md",
     "docs/theory/03_electromagnetic_analysis/10_fem_solver.md",
     "docs/theory/03_electromagnetic_analysis/07_shaft_params.md",
     "docs/theory/03_electromagnetic_analysis/02_fundamentals_of_electromagnetics.md",
