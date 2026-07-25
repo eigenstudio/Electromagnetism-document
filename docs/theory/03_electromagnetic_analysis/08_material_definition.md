@@ -4,6 +4,7 @@ The electromagnetic performance of an electrical machine depends not only on its
 
 Within this software, each machine component is assigned an appropriate material based on its intended function. The material database contains the electromagnetic properties required by the finite element solver, including relative permeability, electrical conductivity, magnetic saturation characteristics, remanent flux density, coercivity, and other material-specific parameters.
 
+The machine components to which these materials are assigned are described in [Geometry of the Stator](05_stator_parameters.md), [Geometry of the Rotor](06_rotor_params.md), and [Geometry of the Shaft](07_shaft_params.md).
 
 ## What are the important materials used in a BLDC motor?
 
@@ -12,7 +13,6 @@ A BLDC motor consists of several components, each requiring materials with speci
 The stator and rotor cores are manufactured from laminated electrical steel to provide a low-reluctance magnetic path while minimizing eddy current losses. Permanent magnets establish the excitation field, copper conductors carry the phase currents, and insulating materials provide electrical isolation between conductive components.
 
 Together, these materials determine the magnetic, electrical, thermal, and mechanical performance of the machine and therefore play a critical role in electromagnetic analysis.
-
 
 ## Why are these materials used?
 
@@ -30,7 +30,7 @@ Selecting appropriate materials for each component improves efficiency, reduces 
 The following table summarizes the materials commonly assigned to each component of a surface-mounted permanent magnet BLDC motor.
 
 ![](attachments/15_material.png)
-**Figure 1:** Material assignment in BLDC motors.
+**Figure 1:** Material assignment in a BLDC motor showing the stator core, rotor core, permanent magnets, windings, shaft, retaining sleeve, slot insulation, and air gap. The diagram links each machine component to the typical materials used and highlights their functional role in the electromagnetic model. This emphasises that material selection is critical for controlling magnetic flux paths, resistive losses, mechanical support, and insulation performance.
 
 | Machine Component | Typical Material | Primary Purpose |
 |-------------------|------------------|-----------------|
@@ -54,6 +54,7 @@ For permanent magnets, additional parameters such as remanent flux density, coer
 
 Electrical conductors are primarily characterized by their electrical conductivity, resistivity, and temperature coefficient, while insulating materials are defined by their dielectric strength and electrical resistivity.
 
+These properties appear directly in the constitutive relations presented in [Finite Element Solver](11_fem_solver.md). Governing electromagnetic equations involving these material properties are summarised in [Electromagnetic Appendix](12_electromagnetics_appendix.md).
 
 ## Summary
 

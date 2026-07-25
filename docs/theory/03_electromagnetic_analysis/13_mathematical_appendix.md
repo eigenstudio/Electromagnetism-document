@@ -4,7 +4,7 @@
 
 The mathematical concepts presented in this appendix provide the foundation for the electromagnetic formulations developed throughout this manual. These operators and identities are extensively used in Maxwell's equations, magnetic vector potential formulations, and finite element analysis.
 
-  These mathematical operators are extensively used in the electromagnetic equations presented in [Electromagnetics Appendix](11_electromagnetics_appendix.md) and [Finite Element Method Solver](10_fem_solver.md).
+  These mathematical operators are extensively used in the electromagnetic equations presented in [Electromagnetics Appendix](12_electromagnetics_appendix.md) and [Finite Element Method Solver](11_fem_solver.md).
   
 
 ## Vector Differential Operators
@@ -286,7 +286,7 @@ $$
 This theorem is fundamental to Faraday's Law and Ampère's Law.
 
   
-Gauss's Law and Ampère's Law presented in [Electromagnetics Appendix](11_electromagnetics_appendix.md) are derived using these integral theorems.
+Gauss's Law and Ampère's Law presented in [Electromagnetics Appendix](12_electromagnetics_appendix.md) are derived using these integral theorems.
 
 ## Common Vector Identities
 

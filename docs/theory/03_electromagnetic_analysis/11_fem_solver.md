@@ -13,7 +13,7 @@ Unlike static electromagnetic problems, the magnetic field inside a BLDC motor c
 Transient simulation solves the governing equations at successive time steps while continuously updating the rotor position and electrical excitation. This enables the accurate prediction of dynamic quantities such as torque ripple, Back EMF, flux linkage, phase currents, and electromagnetic losses.
 
 ![](attachments/16_material.png)
-**Figure 1:** Transient simulation summary
+**Figure 1:** Transient simulation summary for BLDC finite element analysis. The diagram explains how the rotor position is advanced in small increments and the governing field equations are solved at each step to compute flux linkage, back EMF, torque, and losses. It emphasises the time-stepping process used to capture the coupled electromechanical behaviour of the rotating machine.
 
 The mechanical rotor position is given by
 
@@ -49,7 +49,7 @@ For electrical machine analysis, the operating frequencies are sufficiently low 
 ### Gauss's Law
 
 ![](attachments/17_gauss.png)
-**Figure 2:** Gauss's Law of Electrostatics
+**Figure 2:** Gauss's Law of electrostatics in both integral and differential form. The illustration shows the net electric flux through a closed surface and how it is proportional to the enclosed charge divided by the permittivity of free space. This principle is fundamental to modelling electric field sources and boundary conditions in the finite element formulation.
 
 Gauss's Law relates electric charge to the electric field.
 
@@ -66,7 +66,7 @@ where
 ### Gauss's Law for Magnetism
 
 ![](attachments/18_gauss_magnet.png)
-**Figure 2:** Gauss Law of magnetism
+**Figure 3:** Gauss's Law for magnetism showing that the net magnetic flux through any closed surface is zero. The figure highlights the continuous closed-loop nature of magnetic field lines around a dipole magnet and the absence of magnetic monopoles. This constraint is essential for introducing the magnetic vector potential used by the finite element solver.
 
 Magnetic monopoles do not exist; therefore, magnetic field lines always form closed loops.
 
@@ -84,7 +84,7 @@ This equation permits the introduction of the magnetic vector potential used by 
 ### Faraday's Law
 
 ![](attachments/19_faraday.png)
-**Figure 3:** Faraday's Law of Electromagnetism
+**Figure 4:** Faraday's Law of electromagnetic induction in integral and differential form. The illustration shows a time-varying magnetic field producing a circulating electric field around a closed path, which induces an electromotive force. This law underpins Back EMF generation and the dynamic relationship between changing flux and induced voltage in the BLDC machine model.
 
 Faraday's Law describes electromagnetic induction and forms the basis for Back EMF generation.
 
@@ -105,7 +105,7 @@ As the rotor rotates, the changing magnetic flux induces voltage within the stat
 ### Ampère's Law
 
 ![](attachments/20_ampere.png)
-**Figure 4:** Ampere's Law of Electromagnetism
+**Figure 5:** Ampère's Law showing the circulation of magnetic field intensity around a closed path and its relation to current density. The figure illustrates an Amperian loop around a current-carrying conductor and explains the magnetostatic approximation used for BLDC motor analysis. This law provides the fundamental relationship used to compute the magnetic field produced by stator currents in the finite element solver.
 
 The complete Ampère-Maxwell equation is
 
@@ -138,7 +138,7 @@ $$
 
 This equation represents the primary governing equation for magnetostatic and transient magnetic field analysis.
 
-The vector calculus operators used throughout this section are summarised in [Mathematical Appendix](12_mathematical_appendix.md).
+The vector calculus operators used throughout this section are summarised in [Mathematical Appendix](13_mathematical_appendix.md).
 
 ### Constitutive relations
 
@@ -412,7 +412,7 @@ $$
 
 Efficiency measures how effectively the motor converts electrical input power into useful mechanical output power.
 
-A complete list of the governing electromagnetic equations is available in [Electromagnetic appendix](11_electromagnetics_appendix.md).
+A complete list of the governing electromagnetic equations is available in [Electromagnetic appendix](12_electromagnetics_appendix.md).
 ## Summary
 
 The Finite Element Method enables accurate numerical solution of the electromagnetic field equations governing BLDC motor operation. The solver begins by discretizing the machine geometry into finite elements, after which Maxwell's equations are solved using the magnetic vector potential formulation.
