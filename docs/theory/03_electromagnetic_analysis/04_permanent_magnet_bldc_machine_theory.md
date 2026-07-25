@@ -1,4 +1,5 @@
 # Permanent Magnet BLDC Machine Theory
+Have you ever wondered what powers an electric vehicle, keeps a drone airborne, or drives the precise motion of an industrial robot? In many cases, the answer is the Permanent Magnet Brushless DC (BLDC) motor. Renowned for their high efficiency, compact construction, excellent torque density, and low maintenance requirements, BLDC motors have become the preferred choice for a wide range of applications spanning transportation, automation, aerospace, and consumer electronics.
 
 Permanent magnet brushless DC (BLDC) machines are synchronous electric machines in which permanent magnets mounted on the rotor provide the excitation magnetic field, while electronically commutated stator windings generate the rotating magnetic field required for torque production. Their high efficiency, compact size, and excellent power density make them one of the most widely used machine types in electric vehicles, robotics, aerospace, industrial automation, and consumer electronics.
 
@@ -15,9 +16,9 @@ The machine consists of two primary components:
 
 Electronic commutation ensures that the stator magnetic field continuously pulls the rotor, producing continuous rotation. 
 
-![](attachments/07_inrunner.png)
+![](attachments/theory4-1.png)
 
-**Figure 1:** Construction of a permanent magnet BLDC machine showing stator, rotor, air-gap, and permanent magnets.
+**Figure 1:** Construction of a permanent magnet BLDC machine showing stator, rotor, air-gap, and permanent magnets. This is particularly an in-runner BLDC motor as the rotor is on the inner side.
 
 ## Why are BLDC machines important?
 
@@ -35,12 +36,137 @@ These include:
 
 These characteristics have made BLDC machines one of the preferred choices for modern high-performance electromechanical systems.
 
+## What are the different types of BLDC machines?
+
+Permanent magnet BLDC machines can be classified according to the direction of the magnetic flux between the stator and rotor. The two principal configurations are radial flux machines and axial flux machines.
+
+The machine types supported by this software are introduced below.
+### Radial Flux BLDC Machines
+
+In radial flux machines, the magnetic flux travels radially across the air gap between the rotor and stator. This is the most common BLDC motor configuration and is widely used in industrial drives, electric vehicles, robotics, pumps, fans, and household appliances.
+
+The stator and rotor are arranged concentrically, producing a cylindrical magnetic circuit that is well suited for finite element analysis.
+
+Radial flux BLDC machines can be broadly classified into two configurations.
+
+#### Inrunner BLDC Motors
+![](attachments/theory4-2.png)
+
+In an inrunner motor, the rotor is located inside the stator, and the permanent magnets rotate within the stationary stator windings.
+
+Characteristics of inrunner motors include:
+
+- Compact rotor construction.
+- High rotational speed capability.
+- Lower rotor inertia.
+- Good dynamic response.
+- Commonly used in industrial drives and high-speed applications.
+
+The stator and rotor parameterisation presented throughout this manual primarily follows the inrunner machine configuration. The geometric parameters are described in [Geometry of the Stator](05_stator_parameters.md) and [Geometry of the rotor](06_rotor_params.md).
+
+
+
+#### Outrunner BLDC Motors
+![](attachments/theory4-3.png)
+
+In an outrunner motor, the rotor surrounds the stator and rotates externally while the stator remains fixed at the centre.
+
+Compared with inrunner machines, outrunner motors generally provide:
+
+- Larger effective air-gap radius.
+- Higher torque at lower speeds.
+- Greater rotor inertia.
+- Improved torque density for direct-drive applications.
+
+Outrunner machines are commonly used in drones, electric bicycles, and low-speed high-torque applications. Their electromagnetic analysis follows the same finite element formulation presented in [Finite Element Solver](11_fem_solver.md), although the machine geometry differs from the inrunner configuration.
+
+### Axial Flux BLDC Machines
+
+In axial flux machines, the magnetic flux travels parallel to the shaft axis rather than radially. The stator and rotor are arranged as opposing discs, producing a compact axial magnetic circuit.
+
+Because of their short magnetic path and large effective radius, axial flux machines can achieve very high torque density and excellent power-to-weight ratio.
+
+Axial flux BLDC machines are commonly classified according to the number of stators and rotors.
+
+#### Single-Sided Axial Flux Machines
+![](attachments/23_SSSR.png)
+**Figure 2:** Single-sided axial flux BLDC motor configuration. The illustration shows one rotor and one stator arranged as opposing discs, with the magnetic flux path parallel to the shaft axis. This topology is noted for its compact axial design and simpler construction compared to double-sided machines.
+
+A single-sided axial flux machine consists of one stator facing one rotor.
+
+This configuration provides:
+
+- Simple construction.
+- Reduced manufacturing complexity.
+- Compact design.
+- Suitable performance for medium-power applications.
+
+#### Double-Sided Axial Flux Machines
+![](attachments/24_DRSS.png) 
+**Figure 3:** Double-rotor single-stator axial flux BLDC motor. The diagram shows a central stator disc sandwiched between two rotor discs, increasing magnetic loading and torque production. This topology enhances torque density while maintaining a more balanced axial magnetic circuit.
+
+![](attachments/25_DSSR.png)
+**Figure 4:** Dual-stator single-rotor axial flux BLDC motor. The illustration shows one rotor disc located between two stator discs, providing a second active air gap and improved electromagnetic interaction. This configuration is often used when higher torque and efficiency are required without doubling the rotor assembly.
+
+A double-sided axial flux machine typically consists of either:
+
+- Two stators surrounding one rotor, or
+- Two rotors surrounding one stator.
+
+This arrangement increases magnetic loading and improves torque production while reducing axial magnetic forces through better magnetic symmetry.
+
+Double-sided axial flux machines are widely used in applications requiring very high torque density, including electric vehicles and aerospace systems.
+
+## Machine topology
+
+![](attachments/08_topology.png)
+**Figure 5:** Common BLDC machine topologies and their effect on electromagnetic performance. This figure highlights how different pole-slot and winding arrangements influence the magnetic circuit, torque production, and back EMF waveform. Selecting the correct topology is critical for balancing efficiency, torque ripple, and manufacturability.
+
+The electromagnetic characteristics of a BLDC machine are largely determined by its machine topology. The topology defines the fundamental arrangement of the stator windings and rotor magnetic poles, influencing torque production, back electromotive force (Back EMF), efficiency, and operating speed.
+
+Within the software, the machine topology is specified using three primary parameters:
+
+- Number of phases
+- Number of poles
+- Number of slots
+
+These parameters establish the basic electromagnetic configuration from which the machine geometry and winding arrangement are generated.
+
+### Number of Phases
+
+A phase represents an independent electrical winding circuit supplied by a separate alternating current. Multiple phases are used to produce a rotating magnetic field capable of generating continuous electromagnetic torque.
+
+Although electrical machines may employ different phase numbers, three-phase BLDC machines are the most widely used because they provide smooth torque production, balanced power transfer, and high efficiency.
+
+Increasing the number of phases may improve fault tolerance and reduce torque ripple in specialised applications, although it also increases winding complexity and inverter requirements.
+
+The winding arrangement associated with the selected number of phases is discussed in [Geometry of the Stator](05_stator_parameters.md).
+
+### Number of Poles
+
+A magnetic pole is a region of concentrated magnetic flux produced by the permanent magnets mounted on the rotor. The poles are arranged with alternating north (N) and south (S) polarities around the rotor circumference.
+
+The number of poles determines the electrical frequency of the machine and strongly influences its torque-speed characteristics.
+
+In general:
+
+- Higher pole counts increase torque density.
+- Lower pole counts permit higher operating speeds.
+- Poles always occur in north-south pairs, resulting in an even total number of poles.
+
+The permanent magnet arrangement associated with the selected pole count is described in [Geometry of the rotor](06_rotor_params.md).
+
+### Number of Slots
+
+A slot is a recessed opening formed within the stator core that accommodates the machine windings. The number of slots determines the winding layout, slot pitch, magnetic loading, and several important performance characteristics including cogging torque and torque ripple.
+
+The detailed geometric parameterisation of stator slots is presented in [Geometry of the Stator](05_stator_parameters.md).
 ## What is the typical machine construction of a BLDC motor?
 
 The electromagnetic performance of a BLDC machine depends primarily on its mechanical construction and magnetic circuit.
 
 ![](attachments/08_cross_section.png)
-**Figure 2:** Cross-sectional view showing stator slots, windings, rotor magnets, and air-gap.
+**Figure 6:** Cross-sectional view of a radial flux BLDC machine, showing the stator core, slots, windings, rotor permanent magnets, air gap, and shaft. This diagram emphasises the physical arrangement of the magnetic circuit and winding support structure that determine the machine’s electromagnetic behavior. The air gap and magnet placement shown here are especially important for torque generation and flux distribution.
 
 The principal components include:
 
@@ -93,6 +219,13 @@ Proper air-gap design is essential for achieving high machine performance.
 Three-phase concentrated or distributed windings are placed within the stator slots.
 
 When supplied with balanced currents, these windings generate a rotating magnetic field that interacts with the rotor magnets.
+
+### Shaft
+
+The shaft provides the mechanical support for the rotor assembly and transmits the developed electromagnetic torque to the external load. It also maintains the alignment of the rotating components and supports the rotor through the bearing system.
+
+In the electromagnetic model, the shaft is represented by its shaft radius, which defines the inner boundary of the rotor geometry. Although the shaft has little influence on the magnetic field when constructed from non-magnetic materials, its dimensions directly affect the rotor geometry and overall mechanical design.
+
 ## What is the operating principle of BLDC motors?
 
 The operating principles of typical BLDC motor is as follows:
@@ -122,8 +255,7 @@ These quantities are computed directly from the finite element solution.
 
 These quantities are computed during simulation as described in [ Electromagnetic analysis of a BLDC Motor](09_em_analysis_of_bldc_motor.md).
 
-
-The machine geometry introduced in this chapter forms the basis for [Geometry of the stator](05_stator_parameters.md), [Geometry of the rotor](06_rotor_params.md), [Geometry of the shaft](07_shaft_params.md), and the finite element model developed in [Finite Element Solver](10_fem_solver.md).
+The machine geometry introduced in this chapter forms the basis for [Geometry of the stator](05_stator_parameters.md), [Geometry of the rotor](06_rotor_params.md), [Geometry of the shaft](07_shaft_params.md), and the finite element model developed in [Finite Element Solver](11_fem_solver.md).
 
 ## Summary
 

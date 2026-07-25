@@ -2,7 +2,7 @@
 
 The electromagnetic concepts presented in this appendix provide the mathematical foundation for the governing equations used throughout this manual. These equations describe the behaviour of electric and magnetic fields, material properties, electromagnetic induction, and energy conversion in electrical machines.
 
-These equations are referenced throughout [Electromagnetic analysis of a BLDC motor](09_em_analysis_of_bldc_motor.md) and [Finite Element Method solver](10_fem_solver.md).
+These equations are referenced throughout [Electromagnetic analysis of a BLDC motor](09_em_analysis_of_bldc_motor.md) and [Finite Element Method solver](11_fem_solver.md).
 ## Fundamental Electromagnetic Quantities
 
 ### Electric Field Intensity
@@ -384,7 +384,7 @@ $$
 \times100\%
 $$
 
-The mathematical operators appearing in these equations are summarised in [Mathematical Appendix](12_mathematical_appendix.md).
+The mathematical operators appearing in these equations are summarised in [Mathematical Appendix](13_mathematical_appendix.md).
 ## Common Electromagnetic Constants
 
 | Quantity                   | Symbol          | Value                     |

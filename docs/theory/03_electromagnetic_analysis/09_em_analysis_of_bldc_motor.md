@@ -85,7 +85,7 @@ The following table summarizes the principal simulation outputs.
 | Power-Speed Curve      | W or kW vs rpm | Shows available output power across speed range.  |
 | Efficiency-Speed Curve | % vs rpm       | Identifies the most efficient operating region.   |
 | Current-Speed Curve    | A vs rpm       | Indicates electrical loading requirements.        |
-The governing electromagnetic equations solved during each simulation step are derived in [Finite Element Solver](10_fem_solver.md).
+The governing electromagnetic equations solved during each simulation step are derived in [Finite Element Solver](11_fem_solver.md).
 # Time sweep analysis
 
 Time sweep analysis solves the electromagnetic field equations at successive time steps while the rotor rotates continuously.
@@ -164,7 +164,7 @@ The current-speed curve indicates the electrical current required to operate the
 
 Higher current generally corresponds to greater torque production but also results in increased copper losses and winding temperature. This curve is widely used when selecting power electronic converters and determining thermal limits.
 
-Mathematical definitions of all electromagnetic quantities are compiled in [Electromagnetic Appendix](11_electromagnetics_appendix.md).
+Mathematical definitions of all electromagnetic quantities are compiled in [Electromagnetic Appendix](12_electromagnetics_appendix.md).
 ## Summary
 
 Electromagnetic analysis begins with the definition of the machine geometry, operating conditions, excitation sources, and simulation settings. The finite element solver then computes the electromagnetic field distribution from which important engineering quantities such as flux linkage, back EMF, torque, efficiency, and speed characteristics are obtained.

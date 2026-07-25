@@ -4,7 +4,6 @@ Electromagnetic (EM) analysis is the study of electric and magnetic fields and t
 
 By solving the governing equations of electromagnetics, engineers can accurately evaluate quantities such as magnetic flux, electric fields, induced voltages, electromagnetic forces, and energy conversion without relying solely on physical experimentation. As a result, electromagnetic analysis has become an indispensable tool in the design and development of modern electrical and electronic systems.
 
-
 ## What is electromagnetic analysis?
 
 Electromagnetic analysis involves the mathematical and numerical solution of Maxwell's equations to determine the distribution and interaction of electric and magnetic fields within a device. Depending on the application, the analysis may be electrostatic, magnetostatic, transient, frequency-domain, or fully coupled electromagnetic simulations. 
@@ -13,7 +12,7 @@ The computed field quantities are used to evaluate important performance paramet
 
 ![](attachments/01_em_analysis.png)
 
-**Figure 1:** Visual representation of electromagnetic analysis
+**Figure 1:** Visual representation of electromagnetic analysis. The diagram shows the key sources of electromagnetic fields, including a permanent magnet and a current-carrying conductor, together with a BLDC motor geometry and the computed magnetic flux density output. It emphasises how source excitations and device geometry combine to produce field distributions that are evaluated during electromagnetic simulation.
 
 The fundamental concepts of electric and magnetic fields introduced here are explained in detail in [Fundamentals of electromagnetics](02_fundamentals_of_electromagnetics.md).
 ## Why is electromagnetic analysis required?
@@ -39,9 +38,9 @@ Electromagnetic analysis consists of a sequence of extensive steps required for 
 - The resulting electromagnetic field solution is post-processed to compute engineering quantities including magnetic flux density, current density, flux linkage, electromagnetic force, torque, induced voltage, and various loss components. 
 - This simulation-driven workflow enables engineers to evaluate and optimise designs before prototype fabrication.
 
-![](attachments/02_em_analysis_workflow.png)
+![](attachments/02_workflow.png)
 
-**Figure 2:** Electromagnetic analysis workflow
+**Figure 2:** Electromagnetic analysis workflow. The flowchart outlines the practical simulation sequence from computational geometry creation, material property assignment, source and boundary condition setup, mesh generation, system assembly, solution, and post-processing. It highlights how the finite element method converts the problem description into solved field values and derived quantities such as flux, torque, and losses.
 
 The complete simulation workflow, input parameters, and generated results are discussed in [Electromagnetic analysis of a BLDC motor](09_em_analysis_of_bldc_motor.md). 
 ## How will this manual help you understand?

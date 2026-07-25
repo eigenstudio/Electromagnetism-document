@@ -6,23 +6,23 @@ Electromagnetics is the study of electric and magnetic fields and their interact
 
 Electrostatics is the branch of electromagnetics that studies stationary electric charges and the electric fields they produce. It introduces the concepts of electric charge, electric field, electric potential, and electric flux, which form the mathematical foundation of classical electromagnetic theory.
 
-![](attachments/03_electrostatics.png)
-**Figure 1:** Concept of Electric Charge in Electrostatics
+![](attachments/03_statics.png)
+**Figure 1:** Concept of Electric Charge in Electrostatics. The diagram illustrates positive and negative charges and the forces that cause attraction or repulsion between them. It emphasises the static charge sources that produce electric fields and the foundational role of electrostatics in electromagnetic theory.
 
 Although BLDC motor analysis primarily involves magnetic fields, many of the governing mathematical concepts originate from electrostatics. Potential fields, conservation laws, and partial differential equations introduced here later appear in Maxwell's equations and finite element analysis.
 
-The mathematical operators used to describe electric fields are summarised in [Mathematical Appendix](12_mathematical_appendix.md).
+The mathematical operators used to describe electric fields are summarised in [Mathematical Appendix](13_mathematical_appendix.md).
 
 ## What is magnetostatics and why is it important?
 
 Magnetostatics is the study of magnetic fields produced by steady electric currents and permanent magnets. It explains how magnetic fields are generated, distributed, and interact with magnetic materials to produce force and torque in electromagnetic devices.
 
-![](attachments/04_magnetostatics.jpg)
-**Figure 2:** Magnetic field lines 
+![](attachments/04_magnetics.png)
+**Figure 2:** Magnetic field lines. The figure compares the concentric field lines around a current-carrying conductor with the closed flux loops around a permanent magnet, highlighting the different source mechanisms. It underscores that steady currents and permanent magnets both generate magnetic fields that form closed circuits in magnetostatic analysis.
 
 Most electric machine simulations are based on magnetostatic or quasi-static assumptions. Magnetostatics provides the physical principles required to analyse magnetic flux distribution, magnetic saturation, electromagnetic force, torque production, and permanent magnet behaviour.
 
-The governing electromagnetic equations introduced later in [Finite Element Solver](10_fem_solver.md) are based on these magnetic field concepts.
+The governing electromagnetic equations introduced later in [Finite Element Solver](11_fem_solver.md) are based on these magnetic field concepts.
 
 ## What are the fundamental electromagnetic quantities?
 
@@ -39,12 +39,12 @@ Electromagnetic analysis is described using a set of physical quantities that ch
 | Magnetic Field Intensity | $\mathbf{H}$  | A/m     | Magnetizing force that produces magnetic flux.            |
 | Magnetomotive Force      | $\mathcal{F}$ | At      | Magnetic potential produced by current-carrying windings. |
 | Magnetic Reluctance      | $\mathcal{R}$ | At/Wb   | Opposition to magnetic flux in a magnetic path.           |
-Definitions, units, and governing equations for these quantities are compiled in [Electromagnetic appendix](11_electromagnetics_appendix.md).
+Definitions, units, and governing equations for these quantities are compiled in [Electromagnetic appendix](12_electromagnetics_appendix.md).
 ## How are these concepts used in electric machine analysis?
 In permanent magnet BLDC machines, electric currents generate magnetic fields that interact with permanent magnets to produce torque. Finite element analysis solves for quantities such as magnetic flux density, flux linkage, back EMF, force, and torque using the electromagnetic principles introduced in this chapter.
 
-![](attachments/05_usage.png)
-**Figure 3:** Usage of the concepts of electrostatics and magnetostatics in BLDC motor simulations
+![](attachments/05_applications.png)
+**Figure 3:** Usage of the concepts of electrostatics and magnetostatics in BLDC motor simulations. The illustration shows how magnetic fields from permanent magnets and current-carrying stator windings interact to produce torque in a BLDC machine. It highlights the practical application of these fundamental concepts in the simulation and analysis of electromagnetic devices.
 
 These principles provide the theoretical foundation for the BLDC motor analysis described in [Electromagnetic analysis of a BLDC Motor](09_em_analysis_of_bldc_motor.md).
 ## Summary

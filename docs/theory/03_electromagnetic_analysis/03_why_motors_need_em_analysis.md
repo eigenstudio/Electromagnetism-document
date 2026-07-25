@@ -22,7 +22,8 @@ From these field solutions, engineers can predict important performance quantiti
 It also enables the estimation of copper losses, core losses, magnetic saturation, leakage flux, efficiency, and other parameters that directly influence the overall performance and reliability of the motor.
 
 ![](attachments/06_results.png)
-**Figure 1:** Overview of electromagnetic analysis  
+**Figure 1:** Overview of electromagnetic analysis. The image summarises the key performance outputs from a BLDC motor simulation, including magnetic flux density, torque and rotation speed, flux linkage, back EMF, magnetic saturation, and current density. It highlights how electromagnetic analysis provides detailed insight into internal machine behaviour and performance metrics that are difficult to obtain from analytical formulas alone.
+
 ## Why are analytical calculations alone not sufficient?
 
 Analytical equations are extremely useful during the preliminary stages of motor design because they provide quick estimates of machine dimensions and operating characteristics. However, these equations generally assume simplified geometries, uniform magnetic fields, and linear material behaviour.
@@ -36,7 +37,7 @@ The Finite Element Method (FEM) is the most widely used numerical technique for 
 
 This approach allows highly complex geometries, nonlinear magnetic materials, multiple material regions, permanent magnets, and intricate winding configurations to be represented accurately within a single computational model.
 
-The mathematical formulation of the finite element solver is presented in [Finite Element Solver](10_fem_solver.md).
+The mathematical formulation of the finite element solver is presented in [Finite Element Solver](11_fem_solver.md).
 ## How does electromagnetic analysis improve motor design?
 
 Electromagnetic analysis allows engineers to evaluate the effect of design changes long before manufacturing begins. Parameters such as slot geometry, air-gap length, winding arrangement, magnet dimensions, and material selection can be modified and analysed rapidly to determine their influence on machine performance.
