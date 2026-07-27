@@ -12,6 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Learn', link: '/learn/' },
       { text: 'Theory', link: '/theory/' },
       { text: 'Validation', link: '/validation/' },
       { text: 'Practice', link: '/practice/' }

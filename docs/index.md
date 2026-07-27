@@ -7,18 +7,21 @@ hero:
   tagline: Comprehensive documentation & interactive resources
   actions:
     - theme: brand
-      text: Theory
-      link: /theory/
+      text: Start Learning
+      link: /learn/
     - theme: alt
-      text: Validation
-      link: /validation/
+      text: Theory Reference
+      link: /theory/
     - theme: alt
       text: Practice
       link: /practice/
 
 features:
+  - title: Learn
+    details: Three-level learning modules with lessons and concise topic cards for interactive web study.
+    link: /learn/
   - title: Theory
-    details: Electrostatics, magnetostatics, electrodynamics, and Maxwell's equations.
+    details: Reference chapters for structural dynamics, static analysis, and electromagnetic analysis.
     link: /theory/
   - title: Validation
     details: Empirical verification, computational benchmarks, and simulation setups.
@@ -26,4 +29,3 @@ features:
   - title: Practice
     details: Hands-on problem sets, laboratory exercises, and engineering applications.
     link: /practice/
-

@@ -1,4 +1,98 @@
 export const sidebar = {
+  "/learn/": [
+    {
+      text: "Learning Path",
+      collapsed: false,
+      items: [
+        {
+          text: "Overview",
+          link: "/learn/",
+        },
+      ],
+    },
+    {
+      text: "Module 1: Static Analysis",
+      collapsed: false,
+      items: [
+        {
+          text: "Lessons and Topic Cards",
+          link: "/learn/01_static_analysis/",
+        },
+      ],
+    },
+    {
+      text: "Module 2: Dynamic Analysis",
+      collapsed: false,
+      items: [
+        {
+          text: "Lessons and Topic Cards",
+          link: "/learn/02_dynamic_analysis/",
+        },
+      ],
+    },
+    {
+      text: "Module 3: Electromagnetic Analysis",
+      collapsed: false,
+      items: [
+        {
+          text: "Overview",
+          link: "/learn/03_electromagnetic_analysis/",
+        },
+        {
+          text: "1. Introduction to EM Analysis",
+          link: "/learn/03_electromagnetic_analysis/01_introduction_to_electromagnetic_analysis/",
+        },
+        {
+          text: "2. Fundamentals of Electromagnetics",
+          link: "/learn/03_electromagnetic_analysis/02_fundamentals_of_electromagnetics/",
+        },
+        {
+          text: "3. Why Motors Need EM Analysis",
+          link: "/learn/03_electromagnetic_analysis/03_why_motors_need_em_analysis/",
+        },
+        {
+          text: "4. PM BLDC Machine Theory",
+          link: "/learn/03_electromagnetic_analysis/04_permanent_magnet_bldc_machine_theory/",
+        },
+        {
+          text: "5. Geometry of the Stator",
+          link: "/learn/03_electromagnetic_analysis/05_stator_parameters/",
+        },
+        {
+          text: "6. Geometry of the Rotor",
+          link: "/learn/03_electromagnetic_analysis/06_rotor_params/",
+        },
+        {
+          text: "7. Geometry of the Shaft",
+          link: "/learn/03_electromagnetic_analysis/07_shaft_params/",
+        },
+        {
+          text: "8. Material Definition",
+          link: "/learn/03_electromagnetic_analysis/08_material_definition/",
+        },
+        {
+          text: "9. EM Analysis of a BLDC Motor",
+          link: "/learn/03_electromagnetic_analysis/09_em_analysis_of_bldc_motor/",
+        },
+        {
+          text: "10. Analysis Setup",
+          link: "/learn/03_electromagnetic_analysis/10_analysis_configurations/",
+        },
+        {
+          text: "11. Finite Element Solver",
+          link: "/learn/03_electromagnetic_analysis/11_fem_solver/",
+        },
+        {
+          text: "Electromagnetic Appendix",
+          link: "/learn/03_electromagnetic_analysis/12_electromagnetics_appendix",
+        },
+        {
+          text: "Mathematical Appendix",
+          link: "/learn/03_electromagnetic_analysis/13_mathematical_appendix",
+        },
+      ],
+    },
+  ],
   "/theory/": [
     {
       text: "Static Analysis",
@@ -69,72 +163,56 @@ export const sidebar = {
           link: "/theory/03_electromagnetic_analysis/",
         },
         {
-          text: "1. Introduction to the Theory Manual",
-          link: "/theory/03_electromagnetic_analysis/01_Introduction_to_the_Theory_Manual",
+          text: "Introduction to Electromagnetic Analysis",
+          link: "/theory/03_electromagnetic_analysis/01_introduction_to_electromagnetic_analysis",
         },
         {
-          text: "2. Fundamentals to Electrostatics",
-          link: "/theory/03_electromagnetic_analysis/02_Fundamentals_to_Electrostatics",
+          text: "Fundamentals of Electromagnetics",
+          link: "/theory/03_electromagnetic_analysis/02_fundamentals_of_electromagnetics",
         },
         {
-          text: "3. Fundamentals to Magnetostatics",
-          link: "/theory/03_electromagnetic_analysis/03_Fundamentals_to_Magnetostatics",
+          text: "Why Motors Need EM Analysis",
+          link: "/theory/03_electromagnetic_analysis/03_why_motors_need_em_analysis",
         },
         {
-          text: "4. Maxwell's Equations and Electromagnetic Field Theory",
-          link: "/theory/03_electromagnetic_analysis/04_Maxwells_Equations_and_Electromagnetic_field_theory",
+          text: "Permanent Magnet BLDC Machine Theory",
+          link: "/theory/03_electromagnetic_analysis/04_permanent_magnet_bldc_machine_theory",
         },
         {
-          text: "5. Magnetic Vector Potential Formulation",
-          link: "/theory/03_electromagnetic_analysis/05_Magnetic_Vector_Potential_Formulation",
+          text: "Geometry of the Stator",
+          link: "/theory/03_electromagnetic_analysis/05_stator_parameters",
         },
         {
-          text: "6. Electrical Machine Fundamentals",
-          link: "/theory/03_electromagnetic_analysis/06_Electrical_machine_fundamental",
+          text: "Geometry of the Rotor",
+          link: "/theory/03_electromagnetic_analysis/06_rotor_params",
         },
         {
-          text: "7. Motor Geometry and Components",
-          link: "/theory/03_electromagnetic_analysis/07_Motor_Geometry_and_Components",
+          text: "Geometry of the Shaft",
+          link: "/theory/03_electromagnetic_analysis/07_shaft_params",
         },
         {
-          text: "8. Windings and Electrical Excitation",
-          link: "/theory/03_electromagnetic_analysis/08_Winding_And_Excitation",
+          text: "Material Definition",
+          link: "/theory/03_electromagnetic_analysis/08_material_definition",
         },
         {
-          text: "9. Electromagnetic Materials",
-          link: "/theory/03_electromagnetic_analysis/09_Electromagnetic_Materials",
+          text: "EM Analysis of a BLDC Motor",
+          link: "/theory/03_electromagnetic_analysis/09_em_analysis_of_bldc_motor",
         },
         {
-          text: "10. Finite Element Formulation for Electromagnetic Analysis",
-          link: "/theory/03_electromagnetic_analysis/10_Finite_Element_Formulation_for_Electromagnetic_Analysis",
+          text: "Analysis Setup",
+          link: "/theory/03_electromagnetic_analysis/10_analysis_configurations",
         },
         {
-          text: "11. Electromagnetic Governing Equations",
-          link: "/theory/03_electromagnetic_analysis/11_Electromagnetic_Governing_Equations",
+          text: "Finite Element Solver",
+          link: "/theory/03_electromagnetic_analysis/11_fem_solver",
         },
         {
-          text: "12. Electromagnetic Simulation Setup",
-          link: "/theory/03_electromagnetic_analysis/12_Electromagnetic_Simulation_Setup",
-        },
-        {
-          text: "13. Transient Simulation of Rotating Electric Machines",
-          link: "/theory/03_electromagnetic_analysis/13_Transient_Simulation_of_Rotating_Electric_Machines",
-        },
-        {
-          text: "14. Electromagnetic Post-Processing and Performance Evaluation",
-          link: "/theory/03_electromagnetic_analysis/14_Electromagnetic_Post_Processing_and_Performance_Evaluation",
-        },
-        {
-          text: "15. Benchmark Validation and Numerical Verification",
-          link: "/theory/03_electromagnetic_analysis/15_Benchmark_Validation_and_Numerical_Verification",
+          text: "Electromagnetic Appendix",
+          link: "/theory/03_electromagnetic_analysis/12_electromagnetics_appendix",
         },
         {
           text: "Mathematical Appendix",
-          link: "/theory/03_electromagnetic_analysis/Mathematical_Appendix",
-        },
-        {
-          text: "Symbols, Physical Constants and References",
-          link: "/theory/03_electromagnetic_analysis/Symbols_Physical_Constants_and_References",
+          link: "/theory/03_electromagnetic_analysis/13_mathematical_appendix",
         },
       ],
     },
