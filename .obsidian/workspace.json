@@ -196,8 +196,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "cd9af042db95e4a9",
+  "active": "78ad96f94a018427",
   "lastOpenFiles": [
+    "docs/technical_document",
     "docs/theory/03_electromagnetic_analysis/04_permanent_magnet_bldc_machine_theory.md",
     "docs/validation/03_electromagnetic_analysis/09_magnetic_saturation.md",
     "docs/theory/03_electromagnetic_analysis/13_mathematical_appendix.md",
@@ -234,7 +235,6 @@
     "docs/practice/03_electromagnetic_analysis/attachments/01_first.png",
     "docs/index.md",
     "docs/validation/index.md",
-    "docs/theory/index.md",
     "docs/theory/03_electromagnetic_analysis/attachments/theory8-1.png",
     "docs/theory/03_electromagnetic_analysis/attachments/theory7-1.png",
     "docs/theory/03_electromagnetic_analysis/attachments/theory6-2.png",
