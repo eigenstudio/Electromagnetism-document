@@ -6,9 +6,9 @@ This practice exercise demonstrates the complete workflow for performing an elec
 
 The tutorial guides users through the complete process, beginning with project creation and workspace selection, followed by motor geometry generation, material assignment, winding and magnet configuration, automatic mesh generation, solver setup, simulation execution, result visualization, and export of simulation results.
 
-| Complete Workflow | Part A | Part B | Part C | Part D | Part E | Part F | Part G |
-| ----------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Workflow Stage | Project Creation | Geometry | Materials | Excitations | Mesh | Simulation | Results |
+| Complete Workflow | Part A | Part B | Part C | Part D | Part E | Part F |
+| ----------------- | ------ | ------ | ------ | ------ | ------ | ------ |
+| Workflow Stage | Project Creation | Geometry | Materials | Excitations | Mesh | Simulation, Results & Reporting |
 
 
 
@@ -272,8 +272,6 @@ After the motor geometry and material properties have been defined, the next ste
 
 To generate the mesh, expand the **Mesh** section in the left navigation panel and select **Mesh Settings**.
 
-
-
 ## E.1 — Configure Mesh Settings
 
 The **Generate Mesh** dialog allows you to specify the target mesh density by defining the minimum and maximum number of finite elements to be generated.
@@ -297,8 +295,6 @@ Depending on the complexity of the motor geometry and the selected mesh density,
 
 No additional user interaction is required during this process.
 
-
-
 ## E.3 — Review the Mesh Summary
 
 After the mesh has been successfully generated, the **Mesh Summary** panel on the right side of the workspace is updated automatically.
@@ -316,17 +312,15 @@ The **Go to Solver** button becomes available once the mesh has been generated, 
 ![](attachments/Placeholder.png)
 
 
-
 ## E.4 — Regenerate the Mesh
 
 If any geometry parameter is modified after the mesh has been generated, the existing mesh becomes outdated.
 
 Regenerate the mesh by returning to **Mesh Settings**, updating the mesh parameters if necessary, and clicking **Generate Mesh** again. The **Mesh Summary** panel is automatically refreshed to reflect the updated mesh information.
 
-# PART F — Solver Configuration and Analysis Setup
+# PART F — Solver Configuration, Post-Processing, and Report Generation
 
 Once the mesh has been generated successfully, click **Go to Solver** in the **Mesh Summary** panel. The workspace switches from the **Pre-Process** stage to the **Solver** stage, where the analysis type and simulation parameters are configured.
-
 
 
 ## F.1 — Open the Solver Workspace
@@ -336,8 +330,7 @@ The **Solver** workspace contains all settings required to configure and execute
 ![](attachments/Placeholder.png)
 
 
-
-### F.2 — Select Analysis Type
+## F.2 — Select Analysis Type
 
 To configure the solver for an electromagnetic simulation:
 
@@ -461,15 +454,13 @@ The **Job Status** panel displays the following information:
 
 
 
-# PART F — Post-Processing and Result Visualization
-
 After the simulation has completed successfully, click the **Post-Process** tab in the top toolbar to open the result visualization workspace.
 
 The **Post-Process** workspace provides tools for visualizing electromagnetic field distributions, plotting simulation results, and reviewing calculated performance parameters.
 
 
 
-## F.1 — Open the Post-Process Workspace
+## F.10 — Open the Post-Process Workspace
 
 To access the simulation results:
 
@@ -487,7 +478,7 @@ The workspace is divided into three main sections:
 
 
 
-## F.2 — Visualize Contour Plots
+## F.11 — Visualize Contour Plots
 
 The **Contour Plot** section displays the spatial distribution of electromagnetic field quantities on the motor geometry.
 
@@ -507,7 +498,7 @@ The following contour plots are available.
 
 
 
-## F.3 — View Rectangular Plots
+## F.12 — View Rectangular Plots
 
 The **Rectangular Plot** section provides graphical representations of key motor performance parameters.
 
@@ -530,7 +521,7 @@ Available plots include:
 
 
 
-## F.4 — View Calculation Results/ Summary
+## F.13 — View Calculation Results/ Summary
 
 The **Result** section provides access to the calculated performance parameters of the motor.
 
@@ -544,3 +535,110 @@ The calculations panel displays the numerical values computed during the simulat
 ![](attachments/Placeholder.png)
 
 
+After reviewing the simulation results, eigenspacedesign can generate a comprehensive PDF report that summarizes the complete motor model, simulation configuration, and analysis results. This report provides a permanent record of the simulation and can be used for design reviews, documentation, validation, or sharing results with colleagues.
+
+## F.14 — Generate the PDF Report
+
+To create the report:
+
+1. Click **Generate Report** in the Post-Process workspace.
+2. Select the destination folder.
+3. Enter the report name if required.
+4. Click **Generate PDF**.
+
+The software automatically compiles the simulation data and exports a professionally formatted PDF document.
+
+![](attachments/Placeholder.png)
+
+## F.15 — Report Contents
+
+The generated report includes all important information required to reproduce and review the simulation.
+
+### Project Information
+
+- Project name
+- Simulation date and time
+- Motor geometry
+- Analysis type
+- Software version
+
+### Motor Topology
+
+The report summarizes the overall motor configuration, including:
+
+| Parameter | Description |
+|-----------|-------------|
+| Motor Type | Outrunner BLDC |
+| Number of Slots | Total stator slots |
+| Number of Poles | Total rotor poles |
+| Number of Phases | Number of electrical phases |
+| Stack Length | Axial stack length |
+
+### Geometry Summary
+
+The report documents the complete motor geometry used during the simulation, including parameters such as:
+
+- Stator outer diameter
+- Rotor inner and outer diameters
+- Shaft diameter
+- Airgap
+- Magnet thickness
+- Magnet fill factor
+- Slot type
+- Slot dimensions
+- Tooth geometry
+- Stack length
+
+### Material Assignment
+
+A summary table lists the material assigned to each motor component, including the stator, rotor, permanent magnets, windings, shaft, and air region.
+
+### Simulation Setup
+
+The report records all analysis settings used during the simulation, including:
+
+- Excitation type
+- Phase current
+- Current density
+- Frequency
+- Rotor speed
+- Commutation offset
+- Number of phases
+- Time step
+- Number of simulation cycles
+- Speed sweep settings
+- Cogging analysis settings (if enabled)
+
+### Generated Geometry
+
+The report includes an image of the generated motor geometry showing the configured rotor, stator, magnets, windings, shaft, and air region.
+
+### Simulation Results
+
+The report contains the principal plots generated during the simulation, including:
+
+- Magnetic flux density contour
+- Torque vs Time
+- Back EMF
+- Flux Linkage
+- Flux Density
+- Loss Breakdown
+- Efficiency
+
+### Performance Summary
+
+The report concludes with a numerical summary of the calculated motor performance, including:
+
+| Result | Description |
+|--------|-------------|
+| Average Torque | Electromagnetic output torque |
+| Torque Ripple | Peak-to-peak torque variation |
+| Peak Back EMF | Maximum induced voltage |
+| Copper Loss | Stator winding loss |
+| Core Loss | Electromagnetic core loss |
+| Permanent Magnet Loss | Magnet eddy-current loss |
+| Total Loss | Combined electromagnetic losses |
+| Output Power | Mechanical output power |
+| Efficiency | Overall motor efficiency |
+
+The generated PDF serves as a complete record of the motor design, simulation setup, and calculated performance, making it suitable for documentation, design verification, reporting, and comparison of multiple simulation cases.

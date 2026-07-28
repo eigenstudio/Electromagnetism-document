@@ -141,6 +141,10 @@ Use the **Views** panel to change:
 - Field Component
 - Colour Gradient
 
+### Generate PDF Report
+
+Click **Generate Report** in the **Post-Process** workspace to export a comprehensive PDF report summarizing the simulation. The report includes project information, motor topology, geometry details, material assignments, solver parameters, field contour plots, performance graphs, and tabular result summaries.
+
 ## Simulation Workflow
 
 ```text
@@ -169,6 +173,9 @@ Open Post-Process
       │
       ▼
 Review Simulation Results
+      │
+      ▼
+Generate PDF Report
 ```
 
 Using the default configuration, a complete BLDC motor simulation can be performed without modifying any input parameters. Advanced users may customize geometry, materials, excitation, winding configuration, mesh density, or analysis settings as required for specific machine designs.

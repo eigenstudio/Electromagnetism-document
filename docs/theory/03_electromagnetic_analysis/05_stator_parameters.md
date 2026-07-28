@@ -1,4 +1,4 @@
-# Geometry of the stator
+Geometry of the stator
 
 Have you ever wondered why two motors of the same size can produce vastly different torque or efficiency? One of the primary reasons lies in the design of the stator. Although it never rotates, the stator generates the rotating magnetic field that drives the rotor and largely determines the electromagnetic performance of the machine.
 
