@@ -294,6 +294,54 @@ export const sidebar = {
           text: "Overview",
           link: "/practice/03_electromagnetic_analysis/",
         },
+        {
+          text: "Quick Start Guide",
+          link: "/practice/03_electromagnetic_analysis/01_quick_start",
+        },
+        {
+          text: "Inrunner BLDC Motor",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Creating Project",
+              link: "/practice/03_electromagnetic_analysis/02_in-runner_bldc_motor/01_creating_project",
+            },
+            {
+              text: "2. Preprocessing & Geometry",
+              link: "/practice/03_electromagnetic_analysis/02_in-runner_bldc_motor/02_preprocessing_creating_geometry",
+            },
+            {
+              text: "3. Solver & Simulation Setup",
+              link: "/practice/03_electromagnetic_analysis/02_in-runner_bldc_motor/03_solver_simulation_setup",
+            },
+            {
+              text: "4. Results & Post-Process",
+              link: "/practice/03_electromagnetic_analysis/02_in-runner_bldc_motor/04_result_post_process",
+            },
+          ],
+        },
+        {
+          text: "Outrunner BLDC Motor",
+          collapsed: false,
+          items: [
+            {
+              text: "1. Creating Project",
+              link: "/practice/03_electromagnetic_analysis/03_out-runner_bldc_motor/01_creating_project",
+            },
+            {
+              text: "2. Preprocessing & Geometry",
+              link: "/practice/03_electromagnetic_analysis/03_out-runner_bldc_motor/02_preprocessing_creating_geometry",
+            },
+            {
+              text: "3. Solver & Simulation Setup",
+              link: "/practice/03_electromagnetic_analysis/03_out-runner_bldc_motor/03_solver_simulation_setup",
+            },
+            {
+              text: "4. Results & Post-Process",
+              link: "/practice/03_electromagnetic_analysis/03_out-runner_bldc_motor/04_result_post_process",
+            },
+          ],
+        },
       ],
     },
   ],

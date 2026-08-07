@@ -22,4 +22,12 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+#docs with marker for the figures
 docs/practice/03_electromagnetic_analysis/1_out-runner_bldc_motor_markers.md
+
+
+#technical docs
+/docs/technical
+docs/practice/03_electromagnetic_analysis/03_out-runner_bldc_motor.md
+docs/practice/03_electromagnetic_analysis/02_in-runner_bldc_motor.md
